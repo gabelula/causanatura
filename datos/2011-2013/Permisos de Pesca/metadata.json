@@ -1,0 +1,69 @@
+{
+  "nombre_archivo_fuente": "Permisos de Pesca/2314.pdf",
+  "titulo": "Listado de embarcaciones mayores, menores y extranjeras.",
+  "dependencia": "SAGARPA",
+  "contacto_dependencia": "uenlace@conapesca.gob.mx",
+  "metadata_creada": "12-02-2017",
+  "metadata_modificada": "12-02-2017",
+  "formato_original": "XLS",
+  "nombre_archivo": "ANEXO ORDENAMIENTO.xlsx"
+  "solicitud": "0819700002314",
+  "fecha_solicitud": "05-03-2014",
+  "notas": "Datos no recibidos.",
+  "datos": [
+    {
+      "titulo": "Listado actual de concesiones, permisos y autorizaciones para embarcaciones menores",
+      "nombre_archivo": "embarcaciones_menores.csv",
+      "formato": "CSV",
+      "notas": "",
+      "referencia": "Sheet 1",
+      "campos": {
+        "Titular": "Nombre de la persona física o moral que obtuvo el permiso, concesión o autorización.",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA).",
+        "Estado": "ENTIDAD FEDERATIVA",
+        "Municipio": "MUNICIPIO",
+        "Localidad": "LOCALIDAD",
+        "Especie": "Especie que ampara.",
+        "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
+        "Fecha Iniciao": "Vigencia.",
+        "Fecha Termino": "Vigencia.",
+      }
+    },
+    {
+      "titulo": "Listado actual de concesiones, permisos y autorizaciones para embarcaciones mayores",
+      "nombre_archivo": "embarcaciones_mayores.csv",
+      "formato": "CSV",
+      "notas": "",
+      "referencia": "Sheet 2",
+      "campos": {
+        "Titular": "Nombre de la persona física o moral que obtuvo el permiso, concesión o autorización.",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA).",
+        "Estado": "ENTIDAD FEDERATIVA",
+        "Municipio": "MUNICIPIO",
+        "Localidad": "LOCALIDAD",
+        "Especie": "Especie que ampara.",
+        "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
+        "Fecha Iniciao": "Vigencia.",
+        "Fecha Termino": "Vigencia.",
+      }
+    },
+    {
+      "titulo": "Listado actual de concesiones, permisos y autorizaciones para embarcaciones extranjeras",
+      "nombre_archivo": "embarcaciones_extranjeras.csv",
+      "formato": "CSV",
+      "notas": "",
+      "referencia": "Sheet 3",
+      "campos": {
+        "Titular": "Nombre de la persona física o moral que obtuvo el permiso, concesión o autorización.",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA).",
+        "Estado": "ENTIDAD FEDERATIVA",
+        "Municipio": "MUNICIPIO",
+        "Localidad": "LOCALIDAD",
+        "Especie": "Especie que ampara.",
+        "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
+        "Fecha Iniciao": "Vigencia.",
+        "Fecha Termino": "Vigencia.",
+      }
+    }
+  ]
+}
