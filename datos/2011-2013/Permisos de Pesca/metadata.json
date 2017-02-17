@@ -1,12 +1,10 @@
-{
-  "nombre_archivo_fuente": "Permisos de Pesca/2314.pdf",
+{ "nombre_archivo_fuente": "Permisos de Pesca/ANEXO ORDENAMIENTO.xlsx",
   "titulo": "Listado de embarcaciones mayores, menores y extranjeras.",
   "dependencia": "SAGARPA",
   "contacto_dependencia": "uenlace@conapesca.gob.mx",
   "metadata_creada": "12-02-2017",
   "metadata_modificada": "12-02-2017",
   "formato_original": "XLS",
-  "nombre_archivo": "ANEXO ORDENAMIENTO.xlsx"
   "solicitud": "0819700002314",
   "fecha_solicitud": "05-03-2014",
   "notas": "Datos no recibidos.",
@@ -26,7 +24,7 @@
         "Especie": "Especie que ampara.",
         "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
         "Fecha Iniciao": "Vigencia.",
-        "Fecha Termino": "Vigencia.",
+        "Fecha Termino": "Vigencia."
       }
     },
     {
@@ -44,7 +42,7 @@
         "Especie": "Especie que ampara.",
         "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
         "Fecha Iniciao": "Vigencia.",
-        "Fecha Termino": "Vigencia.",
+        "Fecha Termino": "Vigencia."
       }
     },
     {
@@ -62,7 +60,7 @@
         "Especie": "Especie que ampara.",
         "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
         "Fecha Iniciao": "Vigencia.",
-        "Fecha Termino": "Vigencia.",
+        "Fecha Termino": "Vigencia."
       }
     }
   ]
