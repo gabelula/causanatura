@@ -1,0 +1,17 @@
+{
+  "titulo": "SUSTITUCION DE MOTORES MARINOS ECOLOGICOS - SOLICITUDES APROBADAS 2012",
+  "nombre_archivo_fuente": "INFORMACIÓN MOTORES MARINOS ECOLOGICOS 2012.xlsx",
+  "nombre_archivo": "MotoresMarinosEcologicos2012.csv",
+  "formato": "CSV",
+  "notas": "",
+  "referencia": "",
+  "campos":{
+    "Beneficiario": "Nombre de la persona física o moral beneficiada,",
+    "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+    "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+    "Municipio": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+    "Estado": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+    "Aprobacion Conapesca": "Aprobacion Conapesca",
+    "Aprobacion Gob. Edo.": "Aprobacion Gob. Edo."
+  }
+}
