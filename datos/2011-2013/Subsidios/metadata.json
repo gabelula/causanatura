@@ -1,0 +1,161 @@
+{
+  "nombre_archivo_fuente": "BASES_SUBSIDIOS/2414.pdf",
+  "titulo": ".",
+  "dependencia": "SAGARPA",
+  "contacto_dependencia": "uenlace@conapesca.gob.mx",
+  "metadata_creada": "14-02-2017",
+  "metadata_modificada": "14-02-2017",
+  "formato_original": "PDF",
+  "solicitud": "0819700002414",
+  "fecha_solicitud": "21-02-2014",
+  "notas": "",
+  "datos": [
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO A DIESEL MARINO (en el Programa Procampo Productivo) años 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+      "nombre_archivo": "",
+      "nombre_archivo_fuente": "",
+      "formato": "",
+      "notas": "Solicitud pedida pero datos no encontrados",
+      "referencia": "",
+      "campos":{
+        "Nombre": "Nombre de la persona física o moral beneficiada,",
+        "ID": "CURP o RFC",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto": "Monto del apoyo"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO A GASOLINA RIBEREÑA (en el Programa Procampo Productivo) años 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013",
+      "nombre_archivo": "",
+      "nombre_archivo_fuente": "",
+      "formato": "",
+      "notas": "Solicitud pedida pero datos no encontrados",
+      "referencia": "",
+      "campos":{
+        "Nombre": "Nombre de la persona física o moral beneficiada,",
+        "ID": "CURP o RFC",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto": "Monto del apoyo"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para MOTORES MARINOS ECOLÓGICOS de los años 2009, 2010, 2011, 2012, 2013",
+      "nombre_archivo": ["2008-2013.Motores.csv"],
+      "nombre_archivo_fuente": "2008-2013.Motores.xlsx",
+      "formato": "CSV",
+      "notas": "Utiliza archivo sustitución de motoroes. No tiene datos para 2012.",
+      "referencia": "",
+      "campos":{
+        "Año": "Año",
+        "Nombre": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Estado": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Municipio": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto_federal": "Monto de la aportación federal",
+        "Monto_estatal": "Monto de la aportación estatal"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para MODERNIZACIÓN DE EMBARCACIONES MENORES, de los años 2009, 2010, 2011, 2012, 2013",
+      "nombre_archivo": [
+        "2013.MotoresComponentesEmbarcaciones.csv",
+        "2011.MotoresComponentesEmbarcaciones",
+        "2011.MotoresComponentesRedes.csv",
+        "2011.MotoresComponentesGPS.csv",
+        "2011.MotoresComponentesHieleras.csv",
+        "2013.MotoresComponentesGPS.csv",
+        "2013.MotoresComponentesHieleras.csv"
+      ],
+      "nombre_archivo_fuente": "2008-2013.MotoresComponentes.xlsx”",
+      "formato": "CSV",
+      "notas": "Utiliza archivo sustitución de motoroes. No tiene datos para 2012.",
+      "referencia": "",
+      "campos":{
+        "Componente": "Componente",
+        "Año": "Año",
+        "Nombre": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Estado": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Municipio": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto_federal": "Monto de la aportación federal",
+        "Monto_estatal": "Monto de la aportación estatal"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para APOYO A LA INVERSIÓN EN EQUIPAMIENTO E INFRAESTRUCTURA 2011-2012 para los años 2011 y 2012",
+      "nombre_archivo": ["2011.Pesca.csv", "2012.Pesca.csv"],
+      "nombre_archivo_fuente": ["2011.Pesca.xlsx", "2012.Pesca.xlsx"],
+      "formato": "CSV",
+      "notas": "Se proporciona únicamente la información de las Entidades Federativas que enviaron y validaron sus listados definitivos de beneficiarios.. Los beneficiarios que aparecen en cero en el campo de recurso federal, corresponden a aquellos que sólo recibieron recurso estatal en el marco del programa en mención, toda vez que fue llevado a cabo en concurrencia de recursos con los Gobiernos de las Entidades Federativas y el Distrito Federal.",
+      "referencia": "",
+      "campos":{
+        "Nombre": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Especie": "Especie",
+        "Entidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Municipio": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto_federal": "Monto de la aportación federal"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para MOTORES ELÉCTRICOS Y CENTROS DE CARGA PARA GRANJAS ACUÍCOLAS año 2011",
+      "nombre_archivo": "2011.Electricos.csv",
+      "nombre_archivo_fuente": "2011.Electricos.xlsx",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "campos":{
+        "Beneficiario": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Estado": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Municipio": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto_federal": "Monto de la aportación federal",
+        "Monto_estatal": "Monto de la aportación estatal"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para PROYECTOS DE RECONVERSIÓN PRODUCTIVA 2008-2011, años 2008, 2009,2010, 2011",
+      "nombre_archivo": ["2008.Reconversion.xlsx", "2009.Reconversion.csv", "2011.Reconversion.csv"],
+      "nombre_archivo_fuente": ["2008.Reconversion.xlsx", "2009.Reconversion.xlsx", "2011.Reconversion.xlsx"],
+      "formato": "",
+      "notas": "No tiene datos para 2010.",
+      "referencia": "",
+      "campos":{
+        "No": "Número",
+        "Beneficiario": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Nombre_proyecto": "Nombre del proyecto",
+        "Tipo_apoyo": "Tipo de apoyo",
+        "Especie": "Especie",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto": "Monto"
+      }
+    },
+    {
+      "titulo": "Listado de beneficiarios del SUBSIDIO para PROYECTO INTEGRAL DE ACUACULTURA, MARICULTURA O PESQUERO, años 2009,2010,2011, 2013 ",
+      "nombre_archivo": "2012.Integral.csv",
+      "nombre_archivo_fuente": "2012.Integral.xlsx",
+      "formato": "",
+      "notas": "No tiene datos para 2009, 2010, 2011.",
+      "referencia": "",
+      "campos":{
+        "No": "Número",
+        "Beneficiario": "Nombre del beneficiario,",
+        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA)",
+        "Nombre_proyecto": "Nombre del proyecto",
+        "Tipo_apoyo": "Tipo de apoyo",
+        "Especie": "Especie",
+        "Estado": "Estado",
+        "Municipio": "Municipio",
+        "Localidad": "LOCALIDAD, MUNICIPIO Y ENTIDAD FEDERATIVA",
+        "Monto_federal": "Monto de la aportación federal"
+      }
+    }
+  ]
+}
