@@ -17,13 +17,15 @@
 - Tabula <-- it did not work for OCR
 - Cometdocs <-- it did not work for OCR
 - Acrobat Pro <-- it works for OCR but it is paid
-- PDFTables <-- it did not work for OCR & LIMIT ON USAGE
+- PDFTables <-- it did not work for OCR & LIMIT ON USAGE when free
 - PDFSandwich <-- OCR
 - shutil
 - https://github.com/pdfliberation
 - https://github.com/jsfenfen/parsing-prickly-pdfs
 
 # Chequeo archivos
+
+- Running code/pdftoxls.py for ./datos when pdftables API.
 
 ## 2011-2013
 
