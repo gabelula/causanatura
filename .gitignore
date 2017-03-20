@@ -3,5 +3,5 @@ templates
 meetings
 datos/*.pdf
 datos/*.xls
-.DS_Store
+*/.DS_Store
 .dropbox

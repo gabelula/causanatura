@@ -1,0 +1,94 @@
+{
+  "nombre_archivo_fuente": "2014-2015/Apoyos y Subsidios/12416.pdf",
+  "titulo": "",
+  "dependencia": "",
+  "contacto_dependencia": "",
+  "metadata_creada": "",
+  "metadata_modificada": "",
+  "formato_original": "PDF",
+  "solicitud": "0819700012416",
+  "fecha_solicitud": "07-04-2016",
+  "notas": "Información de Apoyos y Subsidios para los años 2014 y 2015",
+  "datos": [
+    {
+      "titulo": "Estadísticas sobre la atención a solicitudes para la modernización de embarcaciones mayores de los años 2014 y 2015.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Número de solicitudes ingresadas por estado, municipio y localidad. Número de apoyos otorgados por estado, municipio y localidad",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Padrón de beneficiarios para la modernización de embarcaciones mayores en los años 2014 y 2015 del Componente de Impulso a la Capitalización Pesquera y Acuícola del Programa de Fomento a la Productividad Pesquera y Acuícola.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Nombre de la persona física o moral beneficiada. Registro Nacional de Pesca y Acuacultura (RNPA) Entidad Federativa. Municipio. Localidad, incluyendo el identificador único del INEGI. Monto del apoyo.",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Estadísticas sobre la atención a solicitudes para la modernización de embarcaciones menores de los años 2014 y 2015",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Número de solicitudes ingresadas por estado, municipio y localidad. Número de apoyos otorgados por estado, municipio y localidad.",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Padrón de beneficiarios para la modernización de embarcaciones menores en los años 2014 y 2015 del Componente de Impulso a la Capitalización Pesquera y Acuícola del Programa de Fomento a la Productividad Pesquera y Acuícola.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Nombre de la persona física o moral beneficiada. Registro Nacional de Pesca y Acuacultura (RNPA) Entidad Federativa. Municipio. Localidad, incluyendo el identificador único del INEGI. Monto del apoyo.",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Estadísticas sobre la atención a solicitudes de diésel marino de los años 2014 y 2015.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Número de solicitudes ingresadas por estado, municipio y localidad. Número de apoyos otorgados por estado, municipio y localidad",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Padrón de beneficiarios de diésel marino en los años 2014 y 2015 del Componente de Impulso a la Capitalización Pesquera y Acuícola del Programa de Fomento a la Productividad Pesquera y Acuícola.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Nombre de la persona física o moral beneficiada. Registro Nacional de Pesca y Acuacultura (RNPA) Entidad Federativa. Municipio. Localidad, incluyendo el identificador único del INEGI. Monto del apoyo.",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Estadísticas sobre la atención a solicitudes de gasolina ribereña de los años 2014 y 2015.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Número de solicitudes ingresadas por estado, municipio y localidad. Número de apoyos otorgados por estado, municipio y localidad.",
+      "campos": {
+      }
+    },
+    {
+      "titulo": "Padrón de beneficiarios de gasolina ribereña en los años 2014 y 2015 del Componente de Impulso a la Capitalización Pesquera y Acuícola del Programa de Fomento a la Productividad Pesquera y Acuícola.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "",
+      "pedido": "Nombre de la persona física o moral beneficiada. Registro Nacional de Pesca y Acuacultura (RNPA) Entidad Federativa. Municipio. Localidad, incluyendo el identificador único del INEGI. Monto del apoyo.",
+      "campos": {
+      }
+    }
+  ]
+}
