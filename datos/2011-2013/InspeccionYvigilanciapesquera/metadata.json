@@ -1,0 +1,92 @@
+{
+  "nombre_archivo_fuente": "Inspección Y vigilancia pesquera/0819700002514-1.pdf",
+  "titulo": "INFORMACIÓN SOBRE INSPECCIÓN Y VIGILANCIA PESQUERA",
+  "dependencia": "SAGARPA",
+  "contacto_dependencia": "",
+  "metadata_creada": "12-02-2017",
+  "metadata_modificada": "12-02-2017",
+  "formato_original": "PDF",
+  "solicitud": "0819700002514",
+  "fecha_solicitud": "21-02-2014",
+  "notas": "Localidad y municipio faltan en muchos de los conjuntos de datos.",
+  "datos": [
+      {
+        "titulo": "Personal asignado a tareas de inspección y vigilancia pesquera por entidad federativa años 2009 2010 2011  2012  2013",
+        "nombre_archivo": "anexo1-numero-de-oficiales-federales-de-pesca.csv",
+        "nombre_archivo_fuente": "0819700002514-1.pdf",
+        "formato": "CSV",
+        "notas": "2009 a 2013",
+        "referencia": "Anexo 1",
+        "campos": [
+          "Area de Adscripción",
+          "Numero de Oficiales Federales de Pesca por año"
+        ]
+      },
+      {
+        "titulo": "Número de embarcaciones para inspección y vigilancia pesquera por tipo, cantidades y entidad federativa a la que son asignadas, años 2009, 2010, 2011, 2012 y 2013",
+        "nombre_archivo": "anexo3-numero-embarcaciones.csv",
+        "nombre_archivo_fuente": "0819700002514-1.pdf",
+        "formato": "CSV",
+        "notas": "",
+        "referencia": "Anexo 3",
+        "campos": []
+      },
+      {
+        "titulo": "Recorridos de inspección pesquera realizados por entidad federativa. Años 2009, 2010, 2011, 2012 y 2013",
+        "nombre_archivo": "anexo4-recorridos-inspeccion.csv",
+        "nombre_archivo_fuente": "0819700002514-1.pdf",
+        "formato": "CSV",
+        "notas": "No todos los datos solicitados fueron enviados.",
+        "referencia": "Anexo 4",
+        "campos": []
+      },
+    {
+      "titulo": "Verificaciones documentales (Actas de Inspección) levantadas por entidad federativa, años 2009, 2010, 2011, 2012 y 2013",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "No toda la información solicitada fue localizada.",
+      "referencia": "Anexo 5",
+      "campos": []
+    },
+    {
+      "titulo": "Personas remitidas al ministerio público, por entidad federativa. Años 2009, 2010, 2011, 2012 y 2013",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "Anexo 4",
+      "campos": []
+    },
+    {
+      "titulo": "Artes de pesca, vehículos y embarcaciones incautadas por nombre de la persona física o moral, Registro Nacional de Pesca y Acuacultura (RNPA), entidad federativa. Años 2009, 2010, 2011, 2012 y 2013",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "Anexo 6",
+      "campos": []
+    },
+    {
+      "titulo": "Pesca ilegal asegurada, por especie, toneladas, y entidad federativa, años 2009, 2010, 2011, 2012 y 2013",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "Anexo 7",
+      "campos": []
+    },
+    {
+      "titulo":"Listado de denuncias ciudadanas presentadas por presunta pesca ilegal, localidad, municipio y entidad federativa y motivo. Años 2011, 2012 y 2013",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "Anexo 8",
+      "campos": []
+    },
+    {
+      "titulo":"Listado de respuestas a denuncias ciudadanas por parte de la CONAPESCA por localidad, municipio y entidad federativa. Años 2011, 2012 y 2013.",
+      "nombre_archivo": "",
+      "formato": "",
+      "notas": "",
+      "referencia": "Anexo 8",
+      "campos": []
+    }
+  ]
+}

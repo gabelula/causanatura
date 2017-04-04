@@ -19,9 +19,13 @@
 - Acrobat Pro <-- it works for OCR but it is paid
 - PDFTables <-- it did not work for OCR & LIMIT ON USAGE when free
 - PDFSandwich <-- OCR
-- shutil
 - https://github.com/pdfliberation
 - https://github.com/jsfenfen/parsing-prickly-pdfs
+- Tesseract for images
+  - tesseract img.tiff out.csv
+- FineReader (paid)
+- CSVKit: awesome kit on CSV manipulation
+- xlsx2csv : it converts XLS to CSV by sheet
 
 # Chequeo archivos
 
@@ -33,8 +37,10 @@
   - convertido a csv
 - Inspeccion y vigilancia pesquera
   - metadata
-  - convertido a xls (con acrobat DC)
-  - AUN NECESITO PASARLO A CSV <-- A LOT OF WORK!!
+  - Opciones:
+    1. convertido a xls (con acrobat DC)
+    2. convertido a csv con pdftables
+    3. convertido a .tiff con acrobat DC y a txt con tesseract
 - Subsidios
   - metadata
   - convertirlo a CSV (in2csv & cleaning)
@@ -42,4 +48,20 @@
 
 ## 2014-2015
 
-- TODO POR HACER
+- Apoyos y Subsidios
+  - Infraestructura
+    - Needs to work on Beneficiarios
+  - Planeacion
+  - Fomento
+- Inspeccion y vigilancia
+- Permisos y Concesiones
+- Produccion
+
+## Otras - Conapesca
+## Solicitudes
+
+
+# Con Causa
+
+- Recorrer todos los datos
+- Mostrar herramientas usadas
