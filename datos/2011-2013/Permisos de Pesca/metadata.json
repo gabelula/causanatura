@@ -23,7 +23,7 @@
         "Localidad": "LOCALIDAD",
         "Especie": "Especie que ampara.",
         "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
-        "Fecha Iniciao": "Vigencia.",
+        "Fecha Inicio": "Vigencia.",
         "Fecha Termino": "Vigencia."
       }
     },
@@ -41,7 +41,7 @@
         "Localidad": "LOCALIDAD",
         "Especie": "Especie que ampara.",
         "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
-        "Fecha Iniciao": "Vigencia.",
+        "Fecha Inicio": "Vigencia.",
         "Fecha Termino": "Vigencia."
       }
     },
@@ -51,17 +51,14 @@
       "formato": "CSV",
       "notas": "",
       "referencia": "Sheet 3",
-      "campos": {
-        "Titular": "Nombre de la persona física o moral que obtuvo el permiso, concesión o autorización.",
-        "RNPA": "Registro Nacional de Pesca y Acuacultura (RNPA).",
-        "Estado": "ENTIDAD FEDERATIVA",
-        "Municipio": "MUNICIPIO",
-        "Localidad": "LOCALIDAD",
-        "Especie": "Especie que ampara.",
-        "Area": "ÁREA para la cual se da la concesión, permiso o autorización para pesca.",
-        "Fecha Iniciao": "Vigencia.",
-        "Fecha Termino": "Vigencia."
-      }
+      "campos": [
+        "TITULAR",
+        "PAIS DE PROCEDENCIA",
+        "ESPECIE QUE AMPARA",
+        "AREA PARA LA CUAL SE DA EL TITULO",
+        "FECHA INICIO",
+        "FECHA TERMINO"
+      ]
     }
   ]
 }
