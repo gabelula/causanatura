@@ -1,16 +1,18 @@
-# Por hacer
+# Documentación
 
-- get json METADATA file template
-- convert everything to CSV <--
+## Tareas
+
+- get json METADATA file template. Normaliza datos.
+- convertir todo a CSV y luego SQL
 	- XLS (31)
 	- XLSX (29)
 	- CSV (4)
 	- PDF (13)
-- use metadata to get all the data organize
-- import to CSV
+- usar metadatos para organizar los datos
+- importar a CSV
 - crear modelo de datos
 
-# Tools being used
+# Herramientas a usar
 
 ## Convert PDF to XLS/CSV
 
@@ -30,6 +32,8 @@
 # Chequeo archivos
 
 - Running code/pdftoxls.py for ./datos when pdftables API.
+
+# Tareas
 
 ## 2011-2013
 
@@ -65,3 +69,6 @@
 
 - Recorrer todos los datos
 - Mostrar herramientas usadas
+
+
+CONVERTIR DATOS A GOOGLE DRIVE: DOCUMENTACION EN GOOGLE DOC
