@@ -2,14 +2,13 @@
 
 ## Tareas
 
-- get json METADATA file template. Normaliza datos.
+- crear json METADATA file template. Normaliza datos.
 - convertir todo a CSV y luego SQL
 	- XLS (31)
 	- XLSX (29)
 	- CSV (4)
 	- PDF (13)
 - usar metadatos para organizar los datos
-- importar a CSV
 - crear modelo de datos
 
 # Herramientas a usar
@@ -20,22 +19,26 @@
 - Cometdocs <-- it did not work for OCR
 - Acrobat Pro <-- it works for OCR but it is paid
 - PDFTables <-- it did not work for OCR & LIMIT ON USAGE when free
-- PDFSandwich <-- OCR
-- https://github.com/pdfliberation
-- https://github.com/jsfenfen/parsing-prickly-pdfs
 - Tesseract for images
   - tesseract img.tiff out.csv
 - FineReader (paid)
 - CSVKit: awesome kit on CSV manipulation
 - xlsx2csv : it converts XLS to CSV by sheet
+- open refine
+
+Leer [Herramientas|herramientas.md]
 
 # Chequeo archivos
 
 - Running code/pdftoxls.py for ./datos when pdftables API.
 
-# Tareas
+# Tareas y Herramientas/Procesos usados
 
 ## 2011-2013
+
+### Conversión a CSV
+
+Aqui incluimos algunos pasos de normalización y limpieza de datos como unificar archivos por año y normalizar nombres de columnas.
 
 - Permiso de Pesca
   - convertido a csv
@@ -49,6 +52,20 @@
   - metadata
   - convertirlo a CSV (in2csv & cleaning)
   - chequear metadata está bien en cuanto a campos que contiene
+
+
+### Limpieza
+
+Pasar todos los archivos por herramientas de limpieza:
+
+- csvclean del CSVKit
+- Open Refine
+
+### CSV a SQL
+
+Para cada archivo CSV generar archivos sql para generación de tablas.
+
+- csvsql del CSVKit
 
 ## 2014-2015
 
@@ -65,10 +82,7 @@
 ## Solicitudes
 
 
-# Con Causa
+# Talleres
 
-- Recorrer todos los datos
-- Mostrar herramientas usadas
-
-
-CONVERTIR DATOS A GOOGLE DRIVE: DOCUMENTACION EN GOOGLE DOC
+- Lectura y Verificación de datos
+- Herramientas usadas y útiles para limpieza de datos futuros
