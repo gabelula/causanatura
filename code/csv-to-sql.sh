@@ -2,8 +2,8 @@
 FILES=$(ls | grep csv)
 for f in $FILES
   do
-     echo "Transforming $f"
-     t=$(echo $f | tr -d ".csv" | tr -d "-")
-     csvsql -i postgresql $f >> ../create.sql
+     t=$(echo $f | sed "s/\.csv//" | tr -d "-" | tr -d "_")
+     echo "Transforming $f into $t"
+     csvsql -i postgresql --tables $t $f >> ../create.sql
      csvsql --db postgresql:///causa --table $t --insert $f
  done
