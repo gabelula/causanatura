@@ -40,7 +40,7 @@ def isNone(cell):
       return True
   return False
 
-def normalizar_nones(archivo):
+def normalizar(archivo):
   nuevo_archivo = 'clean_' + archivo
   with open (archivo, 'r') as f:
       reader = csv.DictReader(f)
@@ -53,20 +53,24 @@ def normalizar_nones(archivo):
               row[column] = ''
           sw.writerow(row)
 
+def check_type(archivo):
+  with open (archivo, 'r') as f:
+      reader = csv.DictReader(f)
+      for row in reader:
+        for column in row:
+          print(type(row[column]))
+
 def main():
 
   # Crea un archivo clean_XXX uniendo columnas de nombres en una sola 'beneficiario'
-  crear_beneficiario(["2011_2013_gasolina.csv", "2011_2013_diesel.csv"])
+  # crear_beneficiario(["2011_2013_gasolina.csv", "2011_2013_diesel.csv"])
 
   # Crea un nuevo archivo clean_XXX con los valores nulos en ''
   # for archivo in archivos:
-  #   normalizar_nones(archivo)
+  #   normalizar(archivo)
 
-    # # Search all the folders in datos
-    # for csv in getCSVFiles('../datos'):
-    #     new_name = os.path.basename(csv).split('.')[0]
-    #     print "CSV {0} converted into {1}".format(csv, new_name)
-    #     insert_sql(new_name, csv)
+  for archivo in archivos:
+    check_type(archivo)
 
 if __name__ == "__main__":
     main()
