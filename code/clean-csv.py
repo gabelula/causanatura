@@ -1,3 +1,6 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
+
 import os, csv
 
 archivos =  {
@@ -22,10 +25,13 @@ def crear_beneficiario(archivos):
    with open (archivo, 'r') as f:
        nuevo_archivo = 'clean_' + archivo
        reader = csv.DictReader(f)
+       fieldnames=reader.fieldnames
+       for x in columnas_a_unir:
+         print(x)
+         fieldnames.remove(x)
+       fieldnames.append(nueva_columna)
        with open(nuevo_archivo, 'wb') as csvfile:
-         fieldnames=reader.fieldnames
-         fieldnames.append(nueva_columna)
-         sw = csv.DictWriter(csvfile, fieldnames=fieldnames)
+         sw = csv.DictWriter(csvfile, fieldnames=fieldnames, quotechar='"', quoting=csv.QUOTE_ALL)
          sw.writeheader()
          for row in reader:
            row[nueva_columna] = ' '.join(map(lambda x:row[x].strip(), columnas_a_unir))
@@ -34,9 +40,9 @@ def crear_beneficiario(archivos):
            sw.writerow(row)
 
 def isNone(cell):
-  Nones = ['x', '-', 'no tiene', 'no']
+  Nones = ['x', '-', 'no tiene', 'no', 'NO TIENE', 'NO', 'NO TIENE CLAVE']
   for n in Nones:
-    if cell == n:
+    if cell.strip() == n:
       return True
   return False
 
@@ -53,6 +59,22 @@ def normalizar(archivo):
               row[column] = ''
           sw.writerow(row)
 
+def remove_dirt(archivo):
+    nuevo_archivo = 'clean_' + archivo
+    with open (archivo, 'r') as f:
+        reader = csv.DictReader(f)
+        with open(nuevo_archivo, 'wb') as csvfile:
+          sw = csv.DictWriter(csvfile, fieldnames=reader.fieldnames)
+          sw.writeheader()
+          for row in reader:
+              # clean rnpa row
+              fields = row["RNPA"].split (" ")
+              print(fields)
+              if len(fields) > 1:
+                  row["RNPA"] = fields[0]
+                  row["Estado"] = fields[1]
+              sw.writerow(row)
+
 def check_type(archivo):
   with open (archivo, 'r') as f:
       reader = csv.DictReader(f)
@@ -63,14 +85,17 @@ def check_type(archivo):
 def main():
 
   # Crea un archivo clean_XXX uniendo columnas de nombres en una sola 'beneficiario'
-  # crear_beneficiario(["2011_2013_gasolina.csv", "2011_2013_diesel.csv"])
+  #crear_beneficiario(["2011_2013_gasolina.csv", "2011_2013_diesel.csv"])
 
   # Crea un nuevo archivo clean_XXX con los valores nulos en ''
   # for archivo in archivos:
   #   normalizar(archivo)
 
-  for archivo in archivos:
-    check_type(archivo)
+  # for archivo in archivos:
+  #   check_type(archivo)
+
+  archivo = "2014_2015_beneficiarios_embarcaciones_menores.csv"
+  remove_dirt(archivo)
 
 if __name__ == "__main__":
     main()
