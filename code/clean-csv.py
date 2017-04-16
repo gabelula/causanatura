@@ -82,6 +82,22 @@ def check_type(archivo):
         for column in row:
           print(type(row[column]))
 
+def transpose(archivo):
+    nuevo_archivo = 'clean_' + archivo
+    nuevo_fieldnames = ["Entidad_Federativa", "Año", "Vehiculos_Incautadas"]
+    with open (archivo, 'r') as f:
+        reader = csv.DictReader(f)
+        with open(nuevo_archivo, 'wb') as csvfile:
+          sw = csv.DictWriter(csvfile, fieldnames=nuevo_fieldnames)
+          sw.writeheader()
+          for row in reader:
+              row2 = {}
+              row2["Entidad_Federativa"] = row["Entidad_Federativa"]
+              for a in [2009,2010,2011,2012,2013]:
+                  row2["Año"] = a
+                  row2["Vehiculos_Incautadas"] = row[str(a)]
+                  sw.writerow(row2)
+
 def main():
 
   # Crea un archivo clean_XXX uniendo columnas de nombres en una sola 'beneficiario'
@@ -94,8 +110,11 @@ def main():
   # for archivo in archivos:
   #   check_type(archivo)
 
-  archivo = "2014_2015_beneficiarios_embarcaciones_menores.csv"
-  remove_dirt(archivo)
+  # archivo = "2014_2015_beneficiarios_embarcaciones_menores.csv"
+  # remove_dirt(archivo)
+
+  archivo = "anexo6-vehiculos-retenidas-provisionalmente.csv"
+  transpose(archivo)
 
 if __name__ == "__main__":
     main()
