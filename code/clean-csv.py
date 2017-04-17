@@ -84,7 +84,8 @@ def check_type(archivo):
 
 def transpose(archivo):
     nuevo_archivo = 'clean_' + archivo
-    nuevo_fieldnames = ["Entidad_Federativa", "Año", "Vehiculos_Incautadas"]
+    nuevo_fieldnames = ["Año", "Entidad",	"Permisos", "Concesiones"]
+
     with open (archivo, 'r') as f:
         reader = csv.DictReader(f)
         with open(nuevo_archivo, 'wb') as csvfile:
@@ -92,10 +93,11 @@ def transpose(archivo):
           sw.writeheader()
           for row in reader:
               row2 = {}
-              row2["Entidad_Federativa"] = row["Entidad_Federativa"]
-              for a in [2009,2010,2011,2012,2013]:
+              row2["Entidad"] = row["Entidad"]
+              for a in [2009,2012,2015]:
                   row2["Año"] = a
-                  row2["Vehiculos_Incautadas"] = row[str(a)]
+                  row2["Permisos"] = row["Solicitudes {} Permisos".format(a)]
+                  row2["Concesiones"] = row["Solicitudes {} Concesiones".format(a)]
                   sw.writerow(row2)
 
 def main():
@@ -113,7 +115,7 @@ def main():
   # archivo = "2014_2015_beneficiarios_embarcaciones_menores.csv"
   # remove_dirt(archivo)
 
-  archivo = "anexo6-vehiculos-retenidas-provisionalmente.csv"
+  archivo = "1_ANEXO_1.csv"
   transpose(archivo)
 
 if __name__ == "__main__":

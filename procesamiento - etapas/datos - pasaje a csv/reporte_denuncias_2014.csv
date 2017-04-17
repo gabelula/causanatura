@@ -1,0 +1,264 @@
+Folio_denuncia,Fecha_captura,Estado,Municipio,Localidad,Lugar_conocido,Tipo_denuncia,Instrumento_utilizado,Estatus,Especie
+28140001,09/01/2014,Tamaulipas,Altamira,Puerto Industrial Altamira (API),CANAL DE NAVEGACIÓN,Captura ilegal,Embarcación Menor,Atendido,ROBALO
+3140002,10/01/2014,Baja California Sur,Los Cabos,Migriño,MIGRIÑO,Captura ilegal,Método de pesca,Atendido,-1
+30140003,10/01/2014,Veracruz,Coatzacoalcos,Coatzacoalcos,ESCOLLERAS,Captura ilegal,Método de pesca,Atendido,-1
+24140004,10/01/2014,San Luis Potosí,Rayón,La Luz,PRESA AMOLADERAS,Comercialización ilegal,Método de pesca,Atendido,LOBINA
+3140005,10/01/2014,Baja California Sur,Los Cabos,San José del Cabo,MIGRIÑO,Captura ilegal,Otros,Atendido,SIERRA
+19140006,11/01/2014,Nuevo León,China,La Presa,LA PLAYITA,Captura ilegal,Embarcación Menor,Atendido,-1
+1140007,11/01/2014,Aguascalientes,Aguascalientes,Aguascalientes,MCGOURMET,Comercialización ilegal,Otros,Atendido,GUACHINANGO
+4140008,14/01/2014,Campeche,Carmen,Ciudad del Carmen,PLAYAS EN GENERAL,Captura ilegal,Método de pesca,Atendido,ROBALO
+18140009,15/01/2014,Nayarit,Bahía de Banderas,Las Jarretaderas,NUEVO VALLARTA,Comercialización ilegal,Embarcación Mayor,Atendido,ATUN
+16140010,16/01/2014,Michoacán,Lázaro Cárdenas,La Playa de Caleta,BAHÍA DE CALETA DE CAMPOS,Captura ilegal,Embarcación Mayor,Atendido,CAMARON
+25140011,17/01/2014,Sinaloa,Elota,Ceuta,PLAYA CEUTA A BOCA COSPITA,Otros,Arte de pesca,Atendido,DORADO
+25140012,17/01/2014,Sinaloa,Navolato,Altata,BAHIA ALTATA Y PABELLON,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+18140013,19/01/2014,Nayarit,San Blas,San Blas,BAHIA DE MATANCHEN,Captura ilegal,Embarcación Mayor,Atendido,CAMARON
+28140014,21/01/2014,Tamaulipas,Altamira,Altamira,RIO TAMESI,Captura ilegal,Arte de pesca,Atendido,ROBALO
+28140015,21/01/2014,Tamaulipas,Altamira,La Pimienta,LA PIMIENTA,Otros,Método de pesca,Atendido,ROBALO
+14140016,24/01/2014,Jalisco,Tomatlán,Presa Cajón de Peña (La Presa),LA PRESA,Captura ilegal,Embarcación Menor,Atendido,LOBINA
+13140017,30/01/2014,Hidalgo,Zimapán,Yethay,PRESA FERNANDO HIRIART BALDERRAMA,Captura ilegal,Embarcación Menor,Atendido,LOBINA
+18140018,04/02/2014,Nayarit,San Blas,San Blas,BAHIA DE MATANCHEN,Otros,Embarcación Mayor,Atendido,CAMARON
+25140019,04/02/2014,Sinaloa,Ahome,Jitzámuri,JITZAMURI,Captura ilegal,Método de pesca,Atendido,JAIBA
+30140020,05/02/2014,Veracruz,Ozuluama de Mascareñas,La Laja,LAGUNA DE TAMIAHUA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+26140021,10/02/2014,Sonora,Puerto Peñasco,Bahía de San Jorge,COSTA DE PUERTO PEÑASCO Y EL DESEMBOQUE DE CAB,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+7140022,15/02/2014,Chiapas,Pijijiapan,Las Cuaches,ISLA MORELO,Posesión ilegal,Otros,Atendido,-1
+2140023,16/02/2014,Baja California,Ensenada,Santo Domingo,VILLA JESUS MARIA BAJA CALIFORNIA,Captura ilegal,Otros,Atendido,ALMEJA
+3140024,19/02/2014,Baja California Sur,Comondú,Puerto San Carlos,BAHIAS MAGDALENA Y ALMEJASS,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+4140025,21/02/2014,Campeche,Campeche,San Francisco de Campeche,COSTAS DE CAMPECHE,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+4140026,21/02/2014,Campeche,Campeche,San Francisco de Campeche,SAN ROMAN,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+25140027,21/02/2014,Sinaloa,Mazatlán,Mazatlán,ESCOLLERA DE ENTRADA AL PUERTO.,Captura ilegal,Arte de pesca,Atendido,LISA
+26140028,05/03/2014,Sonora,Guaymas,Heroica Guaymas,COLONIA SAN VICENTE,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+23140029,06/03/2014,Quintana Roo,Isla Mujeres,Isla Mujeres,PATRIAYPROGRESO,Comercialización ilegal,Método de pesca,Atendido,TIBURON
+23140030,06/03/2014,Quintana Roo,Isla Mujeres,Isla Mujeres,PATRIAYPROGRESO,Captura ilegal,Arte de pesca,Atendido,TIBURON
+26140031,07/03/2014,Sonora,Cajeme,Presa Álvaro Obregón,EMBALSE OUIACHIC U OVIÁCHIC,Comercialización ilegal,Embarcación Menor,Atendido,CARPA
+11140032,07/03/2014,Guanajuato,Yuriria,Yuriria,LAGUNA DE YURIRIA,Captura ilegal,Arte de pesca,Atendido,CHARAL
+27140033,09/03/2014,Tabasco,Centla,Barra de San Pedro,EL COMETA,Captura ilegal,Arte de pesca,Atendido,ROBALO
+28140034,10/03/2014,Tamaulipas,Altamira,La Pedrera,CAÑON,Captura ilegal,Método de pesca,Atendido,MOJARRA
+25140035,11/03/2014,Sinaloa,Guasave,Guasave,CREO QUE ES TOPOLOBAMPO,Otros,Arte de pesca,Atendido,-1
+14140036,14/03/2014,Jalisco,La Huerta,Chamela,PUNTA PERULA,Captura ilegal,Arte de pesca,Atendido,GUACHINANGO
+23140037,17/03/2014,Quintana Roo,Isla Mujeres,Isla Mujeres,YALOCONOSEN,Otros,Otros,Atendido,TIBURON
+14140038,18/03/2014,Jalisco,Chapala,Chapala,LA ESTACION,Captura ilegal,Otros,Atendido,BAGRE
+25140039,19/03/2014,Sinaloa,Rosario,Chametla,"BAHÍA DE LA BARRA, DESEMBOCADURA RÍO BALUARTE",Captura ilegal,Embarcación Menor,Atendido,OSTION
+25140040,21/03/2014,Sinaloa,Rosario,Chametla,DESEMBOCADURA RIO BALUARTE,Captura ilegal,Método de pesca,Atendido,OSTION
+7140041,22/03/2014,Chiapas,La Libertad,La Libertad,LA LIBERTAD CHIAPAS,Captura ilegal,Método de pesca,Atendido,ROBALO
+7140042,22/03/2014,Chiapas,La Libertad,La Libertad,LA LIBERTAD CHIAPAS,Captura ilegal,Método de pesca,Atendido,ROBALO
+20140043,24/03/2014,Oaxaca,San Francisco del Mar,San Francisco Viejo,ESTERO LOS OTATES,Captura ilegal,Arte de pesca,Atendido,CAMARON
+20140044,26/03/2014,Oaxaca,San Francisco del Mar,San Francisco Viejo,ESTERO LOS OTATES,Captura ilegal,Arte de pesca,Atendido,CAMARON
+27140045,26/03/2014,Tabasco,Balancán,Laguna Colorada,EL LECHUGAL,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+16140046,26/03/2014,Michoacán,Lázaro Cárdenas,Ciudad Lázaro Cárdenas,FEDERACION DE LAARO CARDENAS,Captura ilegal,Método de pesca,Atendido,PEZ VELA
+25140047,02/04/2014,Sinaloa,Rosario,Chametla,BARRA DE CHAMETLA,Captura ilegal,Embarcación Menor,Atendido,OSTION
+18140048,03/04/2014,Nayarit,Bahía de Banderas,Nuevo Vallarta,NVO VALLARTA,Captura ilegal,Embarcación Mayor,Atendido,ATUN
+4140049,04/04/2014,Campeche,Carmen,El Aguacatal,RIO CHUMPAN,Captura ilegal,Arte de pesca,Atendido,OTRAS
+4140050,08/04/2014,Campeche,Campeche,San Francisco de Campeche,AVENIDA RESURGIMIENTO,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+7140051,12/04/2014,Chiapas,Tonalá,Manuel Ávila Camacho (Ponte Duro),PAMPA BUENA VISTA,Captura ilegal,Arte de pesca,Atendido,BAGRE
+7140052,12/04/2014,Chiapas,Tonalá,Manuel Ávila Camacho (Ponte Duro),PAMPA BUENA VISTA,Captura ilegal,Arte de pesca,Atendido,BAGRE
+7140053,12/04/2014,Chiapas,Tonalá,Manuel Ávila Camacho (Ponte Duro),PAMPA BUENA VISTA,Captura ilegal,Arte de pesca,Atendido,BAGRE
+7140054,12/04/2014,Chiapas,Tonalá,Manuel Ávila Camacho (Ponte Duro),PAMPA BUENA VISTA,Captura ilegal,Arte de pesca,Atendido,BAGRE
+3140055,16/04/2014,Baja California Sur,Comondú,Puerto San Carlos,BAHIA MAGDALENA,Otros,Embarcación Mayor,Atendido,SARDINA
+14140056,16/04/2014,Jalisco,Ocotlán,Ocotlán,FILETEADORAS,Otros,Otros,Atendido,OTRAS
+3140057,16/04/2014,Baja California Sur,Comondú,Puerto Adolfo López Mateos,GOLFO DE ULLOA,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+2140058,22/04/2014,Baja California,Ensenada,Ensenada,ESTERO SAN JOSÉ,Captura ilegal,Arte de pesca,Atendido,ALMEJA
+4140059,22/04/2014,Campeche,Calkiní,Isla Arena,ISLA ARENA,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+2140060,22/04/2014,Baja California,Mexicali,San Felipe,SAN FELIPE,Captura ilegal,Embarcación Menor,Atendido,OTRAS
+7140061,23/04/2014,Chiapas,La Libertad,La Libertad,LA LIBERTAD CHIAPAS,Captura ilegal,Método de pesca,Atendido,ROBALO
+4140062,25/04/2014,Campeche,Calkiní,Isla Arena,ISLA ARENA,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+18140063,25/04/2014,Nayarit,Tecuala,Novillero,PESCA DEL RINCON,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+6140064,26/04/2014,Colima,Manzanillo,Manzanillo,MERCADO DE PESCADORES,Captura ilegal,Arte de pesca,Atendido,PEZ VELA
+6140065,26/04/2014,Colima,Manzanillo,Manzanillo,PLAYON MUELLE DE USOS MULTIPLES,Comercialización ilegal,Embarcación Menor,Atendido,PEZ VELA
+6140066,28/04/2014,Colima,Manzanillo,Manzanillo,MUELLE DE PESCADORES,Captura ilegal,Embarcación Menor,Atendido,PEZ VELA
+26140067,28/04/2014,Sonora,Huatabampo,Las Bocas,LAS BOCAS,Comercialización ilegal,Vehiculo,Atendido,CAMARON
+26140068,28/04/2014,Sonora,Huatabampo,Las Bocas,LAS BOCAS,Comercialización ilegal,Vehiculo,Atendido,CAMARON
+3140069,29/04/2014,Baja California Sur,Comondú,Puerto San Carlos,FRENTE A LAS SALINITAS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+14140070,30/04/2014,Jalisco,Guadalajara,Guadalajara,PRESA VISTA HERMOSA.,Otros,Otros,Atendido,LOBINA
+25140071,30/04/2014,Sinaloa,Escuinapa,Teacapán,QUESO,Transportación ilegal,Vehiculo,Atendido,CAZON
+25140072,02/05/2014,Sinaloa,Escuinapa,Escuinapa de Hidalgo,LA GUANERA,Otros,Otros,Atendido,CAMARON
+25140073,02/05/2014,Sinaloa,Escuinapa,Escuinapa de Hidalgo,LA GUANERA,Otros,Otros,Atendido,CAMARON
+3140074,03/05/2014,Baja California Sur,Comondú,Puerto San Carlos,PUNTA BANDERITAS,Captura ilegal,Embarcación Menor,Atendido,JAIBA
+26140075,07/05/2014,Sonora,Caborca,Puerto Lobos,"PUERTO LOBOS, DESEMBOQUE, STO TOMAS",Captura ilegal,Embarcación Menor,Atendido,CAMARON
+30140076,09/05/2014,Veracruz,Tecolutla,La Guadalupe,RIACHUELOS,Captura ilegal,Embarcación Menor,Atendido,OTRAS
+2140077,09/05/2014,Baja California,Ensenada,Ensenada,LAGUNA MANUELA Y ESTERO SAN JOSE,Captura ilegal,Embarcación Menor,Atendido,ALMEJA
+30140078,10/05/2014,Veracruz,Tecolutla,Tecolutla,RIACHUELOS,Captura ilegal,Método de pesca,Atendido,OTRAS
+4140079,14/05/2014,Campeche,Campeche,Lerma,REFUIO PESQUERO DE KILA LERMA,Comercialización ilegal,Vehiculo,Atendido,PULPO
+4140080,16/05/2014,Campeche,Campeche,Lerma,REFUGIO PESQUERO DE KILA LERMA,Posesión ilegal,Otros,Atendido,PULPO
+31140081,20/05/2014,Yucatán,Celestún,Celestún,CELESTUN,Captura ilegal,Arte de pesca,Atendido,CAZON
+31140082,20/05/2014,Yucatán,Celestún,Celestún,CELESTUN,Captura ilegal,Arte de pesca,Atendido,CAZON
+26140083,21/05/2014,Sonora,San Ignacio Río Muerto,Bahía de Lobos,PLAYA SANTA,Captura ilegal,Embarcación Menor,Atendido,TIBURON
+26140084,21/05/2014,Sonora,San Ignacio Río Muerto,Bahía de Lobos,BOCA SUR,Transportación ilegal,Vehiculo,Atendido,DORADO
+2140085,22/05/2014,Baja California,Ensenada,San Quintín,ISLA DE SAN MARTIN,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140086,27/05/2014,Jalisco,Jilotlán de los Dolores,Rancho Viejo,MARGEN DE LA PRESA,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+14140087,27/05/2014,Jalisco,Jilotlán de los Dolores,Presa Constitución de Apatzingán (La Presa),EL RANCHITO,Comercialización ilegal,Vehiculo,Atendido,MOJARRA
+25140088,27/05/2014,Sinaloa,Ahome,Los Mochis,EL ELEFANTE Y EL FARALLON,Captura ilegal,Embarcación Menor,Atendido,DORADO
+13140089,27/05/2014,Hidalgo,Tepeji del Río de Ocampo,Tepeji de Ocampo,PRESA REQUENA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+15140090,27/05/2014,México,Tepotzotlán,Tepotzotlán,PRESA LA CONCEPCION,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140091,29/05/2014,Jalisco,Chapala,Santa Cruz de la Soledad,EL ACUEDUCTO,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+14140092,29/05/2014,Jalisco,Chapala,La Cristina,LA CRISTINA,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+3140093,30/05/2014,Baja California Sur,La Paz,El Sargento,BAHÍA DE LA VENTANA,Captura ilegal,Otros,Atendido,PARGO
+26140094,04/06/2014,Sonora,Empalme,Cruz de Piedra,PARQUE ACUICOLAQ CRUZ DE PIEDRA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+14140095,05/06/2014,Jalisco,null,null,RIVERAS DEL PILAR,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+30140096,06/06/2014,Veracruz,Tamiahua,La Reforma,LA REFORMA,Comercialización ilegal,Método de pesca,Atendido,CAMARON
+27140097,09/06/2014,Tabasco,Jonuta,Jonuta,RANCHERIA EL ZAPOTAL,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+25140098,16/06/2014,Sinaloa,Mazatlán,El Walamo,COMO EL OSTIAL,Captura ilegal,Otros,Atendido,CAMARON
+10140099,19/06/2014,Durango,Nombre de Dios,Nombre de Dios,PRESA CONTALPA,Captura ilegal,Otros,Atendido,OTRAS
+6140100,20/06/2014,Colima,Manzanillo,Manzanillo,ESCOLLERA DE LAS BRISAS.,Captura ilegal,Embarcación Menor,Atendido,SARDINA
+26140101,21/06/2014,Sonora,Empalme,Empalme,PLAYA DEL COCHORIT,Captura ilegal,Embarcación Menor,Atendido,JAIBA
+26140102,24/06/2014,Sonora,Empalme,Empalme,BELLA VISTA,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+4140103,24/06/2014,Campeche,Campeche,Pueblo Nuevo,SEYBA,Captura ilegal,Vehiculo,Atendido,PULPO
+18140104,30/06/2014,Nayarit,Tepic,Embarcadero de la Cortina,LA CORTINA DE LA PRESA AGUAMILPA,Captura ilegal,Vehiculo,Atendido,MOJARRA
+25140105,30/06/2014,Sinaloa,Rosario,Potrero de los Laureles,RIO BALUARTE- POTRERO DE LOS LAURELES.,Captura ilegal,Arte de pesca,Atendido,LANGOSTINO
+30140106,02/07/2014,Veracruz,Coatzacoalcos,Coatzacoalcos,COATZACOALCOS VERACRUZ,Captura ilegal,Arte de pesca,Atendido,ROBALO
+11140107,03/07/2014,Guanajuato,Acámbaro,Iramuco,LAGO DE CUITZEO,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+14140108,04/07/2014,Jalisco,Cabo Corrientes,Los Corrales,CUCHARAS,Captura ilegal,Embarcación Menor,Atendido,GUACHINANGO
+25140109,08/07/2014,Sinaloa,null,null,TEACAPAN,Captura ilegal,Método de pesca,Atendido,CAMARON
+25140110,08/07/2014,Sinaloa,Culiacán,Cospita,COSPITA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+26140111,08/07/2014,Sonora,Guaymas,Heroica Guaymas,GUAYMAS,Otros,Arte de pesca,Atendido,JAIBA
+18140112,09/07/2014,Nayarit,Acaponeta,San Miguel,ALFREDO B. BONFIL Y JALISCO,Captura ilegal,Arte de pesca,Atendido,MOJARRA
+26140113,10/07/2014,Sonora,Huatabampo,Melchor Ocampo,LA ESCOLLERA,Captura ilegal,Embarcación Menor,Atendido,-1
+12140114,14/07/2014,Guerrero,Técpan de Galeana,Puerto Vicente Guerrero,PUERTO VICENTE GUERRERO,Captura ilegal,Arte de pesca,Atendido,OSTION
+4140115,21/07/2014,Campeche,Campeche,San Francisco de Campeche,"XPICOB, CAMPECHE",Otros,Embarcación Menor,Atendido,PULPO
+4140116,21/07/2014,Campeche,Campeche,San Francisco de Campeche,"XPICOB, CAMPECHE",Otros,Embarcación Menor,Atendido,PULPO
+25140117,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Captura ilegal,Vehiculo,Atendido,-1
+25140118,21/07/2014,Sinaloa,Mazatlán,La Granja,LAS IGUANAS,Captura ilegal,Vehiculo,Atendido,OTRAS
+25140119,21/07/2014,Sinaloa,Mazatlán,Casas Viejas,CASA VIEJAS,Captura ilegal,Otros,Atendido,OTRAS
+25140120,21/07/2014,Sinaloa,Mazatlán,Puerta de San Marcos,PUERTA DE SAN MARCOS,Captura ilegal,Otros,Atendido,OTRAS
+25140121,21/07/2014,Sinaloa,Mazatlán,Puerta de San Marcos,LA PUERTA,Captura ilegal,Vehiculo,Atendido,OTRAS
+25140122,21/07/2014,Sinaloa,Mazatlán,Puerta de San Marcos,LA PUERTA,Captura ilegal,Otros,Atendido,OTRAS
+25140123,21/07/2014,Sinaloa,Mazatlán,Puerta de San Marcos,LA PUERTA,Captura ilegal,Otros,Atendido,OTRAS
+25140124,21/07/2014,Sinaloa,Mazatlán,Isla Venados,LAS IGUANAS,Captura ilegal,Método de pesca,Atendido,OTRAS
+25140125,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Captura ilegal,Embarcación Menor,Atendido,LOBINA
+25140126,21/07/2014,Sinaloa,Mazatlán,Isla Venados,LAS IGUANAS,Captura ilegal,Método de pesca,Atendido,OTRAS
+25140127,21/07/2014,Sinaloa,Mazatlán,Isla Venados,LAS IGUANAS,Captura ilegal,Otros,Atendido,OTRAS
+25140128,21/07/2014,Sinaloa,Mazatlán,Casas Viejas,CASAS VIEJAS,Captura ilegal,Vehiculo,Atendido,OTRAS
+25140129,21/07/2014,Sinaloa,Mazatlán,Casas Viejas,CASAS VIEJAS,Captura ilegal,Otros,Atendido,OTRAS
+25140130,21/07/2014,Sinaloa,Mazatlán,Mazatlán,"EMBARCADERO DEL PUEBLO DE LAS IGUANAS, CONCORDIA",Transportación ilegal,Vehiculo,Atendido,-1
+25140131,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Posesión ilegal,Vehiculo,Atendido,-1
+25140132,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Posesión ilegal,Vehiculo,Atendido,-1
+25140133,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Comercialización ilegal,Vehiculo,Atendido,-1
+25140134,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Comercialización ilegal,Vehiculo,Atendido,-1
+25140135,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Captura ilegal,Vehiculo,Atendido,-1
+25140136,21/07/2014,Sinaloa,Mazatlán,Mazatlán,PRESA PICACHOS,Transportación ilegal,Vehiculo,Atendido,-1
+25140137,21/07/2014,Sinaloa,Mazatlán,Mazatlán,EN LA PRESA PICACHOS,Captura ilegal,Vehiculo,Atendido,-1
+2140138,29/07/2014,Baja California,Mexicali,San Felipe,"SN FELIPE, PUERTECITOS Y LUIS GONZAGA",Captura ilegal,Embarcación Menor,Atendido,OTRAS
+18140139,30/07/2014,Nayarit,Tepic,La Hacienda,REGION DEE LAS HACIENDAS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+26140140,30/07/2014,Sonora,Benito Juárez,Paredón Colorado (Paredón Viejo),PAREDON COLORADO,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+26140141,30/07/2014,Sonora,Benito Juárez,Paredón Colorado (Paredón Viejo),PAREDON COLORADO,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+25140142,30/07/2014,Sinaloa,Escuinapa,Ojo de Agua de Palmillas,EMBARCADERO DE LOS LIBRES DE PALMILLAS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+2140143,31/07/2014,Baja California,Mexicali,San Felipe,SAN FELIPE,Captura ilegal,Embarcación Menor,Atendido,ALMEJA
+25140144,01/08/2014,Sinaloa,Guasave,Boca del Río,LA BOCA DEL RIO,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+26140145,04/08/2014,Sonora,Guaymas,Heroica Guaymas,ENSENADA GRANDE,Captura ilegal,Embarcación Menor,Atendido,DORADO
+25140146,04/08/2014,Sinaloa,Rosario,Las Garzas,LA TARQUINA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+26140147,04/08/2014,Sonora,Huatabampo,Las Bocas,LAS BOCAS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+18140148,05/08/2014,Nayarit,San Blas,Guadalupe Victoria (La Virocha),"ESTERO LAGUNA NARANJO, LAS CHANGAS Y PAPAYITOS.",Captura ilegal,Embarcación Menor,Atendido,CAMARON
+3140149,06/08/2014,Baja California Sur,Los Cabos,San José del Cabo,BAHIA SANTA MARÍA,Captura ilegal,Embarcación Mayor,Atendido,-1
+26140150,06/08/2014,Sonora,San Ignacio Río Muerto,San Ignacio Río Muerto,BAHIA DE LOBOS,Captura ilegal,Embarcación Menor,Atendido,DORADO
+31140151,08/08/2014,Yucatán,Progreso,Progreso,UAYMITUN,Captura ilegal,Embarcación Menor,Atendido,PEPINO DE MA
+26140152,08/08/2014,Sonora,Hermosillo,El Colorado,EL CHOYUDO Y EL COLORADO,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+4140153,11/08/2014,Campeche,Campeche,Lerma,A UN COSTADO DEL RESTAURANT LA UVA,Posesión ilegal,Embarcación Menor,Atendido,PULPO
+25140154,11/08/2014,Sinaloa,Guasave,San José de la Brecha,ESTERO WACHAPORI,Captura ilegal,Embarcación Menor,Atendido,OTRAS
+31140155,12/08/2014,Yucatán,Progreso,Chicxulub (Chicxulub Puerto),ISLA ALACRANES,Captura ilegal,Embarcación Mayor,Atendido,TIBURON
+31140156,12/08/2014,Yucatán,Mérida,Mérida,ALACRANES,Captura ilegal,Método de pesca,Atendido,TIBURON
+31140157,13/08/2014,Yucatán,Progreso,Progreso,YUCALPETEN,Captura ilegal,Embarcación Menor,Atendido,TIBURON
+31140158,13/08/2014,Yucatán,Progreso,Progreso,YUCALPETEN,Captura ilegal,Embarcación Menor,Atendido,TIBURON
+18140159,13/08/2014,Nayarit,Tecuala,El Macho Viejo,EL MACHO,Comercialización ilegal,Embarcación Menor,Atendido,CAMARON
+31140160,13/08/2014,Yucatán,Mérida,Mérida,YUCATÁN,Captura ilegal,Otros,Atendido,TIBURON
+31140161,13/08/2014,Yucatán,Mérida,Mérida,YUCATÁN,Captura ilegal,Otros,Atendido,TIBURON
+26140162,17/08/2014,Sonora,Hermosillo,Bahía de Kino,EL COLORADO,Captura ilegal,Embarcación Menor,Atendido,DORADO
+26140163,17/08/2014,Sonora,Guaymas,Pótam,POTAM,Captura ilegal,Vehiculo,Atendido,-1
+26140164,17/08/2014,Sonora,Guaymas,Pótam,POTAM,Captura ilegal,Vehiculo,Atendido,-1
+26140165,17/08/2014,Sonora,Guaymas,Pótam,POTAM,Captura ilegal,Vehiculo,Atendido,-1
+26140166,19/08/2014,Sonora,San Ignacio Río Muerto,Bahía de Lobos,BAHIA DE LOBOS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+26140167,24/08/2014,Sonora,Guaymas,Pótam,CHOYAL,Comercialización ilegal,Método de pesca,Atendido,CAMARON
+16140168,25/08/2014,Michoacán,Lázaro Cárdenas,Ciudad Lázaro Cárdenas,DESEMBOQUE DEL RIO BALSAS,Captura ilegal,Embarcación Menor,Atendido,LANGOSTA
+16140169,25/08/2014,Michoacán,null,null,DESEMBOQUE DEL RIO BALSAS,Captura ilegal,Embarcación Menor,Atendido,LANGOSTA
+25140170,25/08/2014,Sinaloa,Ahome,Topolobampo,MUELLE DE FONATUR,Captura ilegal,Arte de pesca,Atendido,CAMARON
+14140171,26/08/2014,Jalisco,Tuxcueca,Puerto Corona,SAN CRISTOBAL,Otros,Otros,Atendido,-1
+14140172,27/08/2014,Jalisco,Tomatlán,Presa Cajón de Peña (La Presa),CENTRO,Captura ilegal,Embarcación Menor,Atendido,TRUCHA
+4140173,28/08/2014,Campeche,Campeche,San Francisco de Campeche,SAN LORENZO,Captura ilegal,Vehiculo,Atendido,PULPO
+26140174,29/08/2014,Sonora,Cajeme,Presa Álvaro Obregón,OVIACHIC,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+25140175,29/08/2014,Sinaloa,Culiacán,Eldorado,LAS ARENITAS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+2140176,29/08/2014,Baja California,Mexicali,San Felipe,PARTE NORTE DE SAN FELIPE,Captura ilegal,Embarcación Menor,Atendido,ALMEJA
+17140177,29/08/2014,Morelos,Miacatlán,Miacatlán,LAGOS COATETELCO Y EL RODEO,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+18140178,29/08/2014,Nayarit,Tecuala,Tecuala,PASO HONDO,Captura ilegal,Arte de pesca,Atendido,CAMARON
+2140179,02/09/2014,Baja California,Ensenada,Punta Prieta,LAGUNA MANUELA,Captura ilegal,Embarcación Menor,Atendido,CAZON
+25140180,03/09/2014,Sinaloa,Navolato,Dautillos,DAUTILLOS,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+26140181,03/09/2014,Sonora,San Ignacio Río Muerto,Bahía de Lobos,BAHIA DE LOBOS,Otros,Embarcación Menor,Atendido,CAMARON
+25140182,03/09/2014,Sinaloa,Mazatlán,Lomas de Monterrey,DIQUE NO. III,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+30140183,03/09/2014,Veracruz,Alvarado,Alvarado,ALVARDO,Captura ilegal,Arte de pesca,Atendido,OTRAS
+26140184,06/09/2014,Sonora,Huatabampo,Las Bocas,LAS BOCAS,Captura ilegal,Método de pesca,Atendido,CAMARON
+26140185,08/09/2014,Sonora,Hermosillo,El Colorado,SAN AGUSTIN,Captura ilegal,Arte de pesca,Atendido,DORADO
+18140186,08/09/2014,Nayarit,Tecuala,Tecuala,TECUALA,Captura ilegal,Embarcación Menor,Atendido,CAMARON
+2140187,09/09/2014,Baja California,Ensenada,Jatay,BAJAMAR-JATAY-JOVITA,Captura ilegal,Embarcación Menor,Atendido,LANGOSTA
+2140188,09/09/2014,Baja California,Ensenada,Ensenada,PLAYA HERMOSA,Captura ilegal,Embarcación Mayor,Atendido,-1
+25140189,12/09/2014,Sinaloa,Mazatlán,Lomas de Monterrey,DIQUE NO. III,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+18140190,18/09/2014,Nayarit,San Blas,La Chiripa,ESTERO DE CALLEJONES,Captura ilegal,Arte de pesca,Atendido,CAMARON
+18140191,18/09/2014,Nayarit,Bahía de Banderas,Cruz de Huanacaxtle,MERCADO LOCAL,Comercialización ilegal,Otros,Atendido,JUREL
+30140192,19/09/2014,Veracruz,Pueblo Viejo,Cd. Cuauhtémoc,CHACAS,Captura ilegal,Método de pesca,Atendido,CAMARON
+30140193,22/09/2014,Veracruz,Tamiahua,Las Chacas,CUCHARAS,Captura ilegal,Método de pesca,Atendido,CAMARON
+27140194,22/09/2014,Tabasco,Macuspana,Chilapilla 1a. Sección,RIO CHILAPILLA CD PEMEX,Captura ilegal,Embarcación Menor,Atendido,ROBALO
+27140195,22/09/2014,Tabasco,Macuspana,Chilapilla 1a. Sección,RIO CHILAPILLA CD PEMEX,Captura ilegal,Embarcación Menor,Atendido,ROBALO
+30140196,23/09/2014,Veracruz,Tecolutla,Tecolutla,TECOLUTLA,Captura ilegal,Otros,Atendido,-1
+30140197,25/09/2014,Veracruz,Pueblo Viejo,San Felipe,CUCHARAS,Captura ilegal,Arte de pesca,Atendido,CAMARON
+6140198,26/09/2014,Colima,Tecomán,Pascuales,BOCA DE PASCUALES,Captura ilegal,Método de pesca,Atendido,ROBALO
+18140199,26/09/2014,Nayarit,Bahía de Banderas,Aguamilpa,PRESA HIDROELECTRICA AGUAMILPA,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+30140200,30/09/2014,Veracruz,Tamiahua,La Brecha,LA BRECHA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+25140201,30/09/2014,Sinaloa,Concordia,Las Iguanas,LAS IGUANAS,Captura ilegal,Embarcación Menor,Atendido,LOBINA
+25140202,03/10/2014,Sinaloa,Navolato,Altata,LAGUNA CHIRICAHUETO-ENSENADA EL PABELLÓN,Captura ilegal,Método de pesca,Atendido,CAMARON
+2140203,06/10/2014,Baja California,Ensenada,El Rosarito,PLAYA DEL EJIDO VALLE TRANQUILO,Captura ilegal,Arte de pesca,Atendido,LANGOSTA
+2140204,08/10/2014,Baja California,Mexicali,San Felipe,SAN FELIPE,Otros,Método de pesca,Atendido,ALMEJA
+6140205,23/10/2014,Colima,Tecomán,Boca de Pascuales,DESEMBOCADURA PASCUALES,Captura ilegal,Arte de pesca,Atendido,-1
+14140206,27/10/2014,Jalisco,Cabo Corrientes,Pizota,CERRO BOLA HASTA PIZOTA,Captura ilegal,Otros,Atendido,-1
+30140207,28/10/2014,Veracruz,Pueblo Viejo,Cd. Cuauhtémoc,PUEBLO VIEJO,Captura ilegal,Arte de pesca,Atendido,CAMARON
+25140208,29/10/2014,Sinaloa,Mazatlán,El Tecomate de Siqueros,PRRSA LOS HORCONES,Captura ilegal,Embarcación Menor,Atendido,MOJARRA
+14140209,04/11/2014,Jalisco,Tuxcueca,San Luis Soyatlán,SAN NICOLAS DE ACUÑA,Captura ilegal,Arte de pesca,Atendido,CHARAL
+25140210,05/11/2014,Sinaloa,Escuinapa,Las Cabras,LAS CABRAS,Otros,Otros,Atendido,CAMARON
+14140211,05/11/2014,Jalisco,Tizapán el Alto,Tizapán el Alto,DE TIZAPAN A MISMALOYA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140212,05/11/2014,Jalisco,Chapala,Chapala,CHAPALA,Posesión ilegal,Arte de pesca,Atendido,OTRAS
+14140213,05/11/2014,Jalisco,Tizapán el Alto,Mismaloya,SAN NICOLAS-MISMALOYA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140214,05/11/2014,Jalisco,Jamay,Jamay,RINCON DE JAMAY,Captura ilegal,Arte de pesca,Sin atender,OTRAS
+14140215,05/11/2014,Jalisco,Chapala,Ajijic,MERCADO MUNICIPAL,Comercialización ilegal,Otros,Atendido,OTRAS
+14140216,06/11/2014,Jalisco,Colotlán,Colotlán,COLONIA TORRECILLAS,Otros,Otros,Atendido,OTRAS
+14140217,06/11/2014,Jalisco,Poncitlán,Poncitlán,EJIDO DEL GUSANO,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140218,06/11/2014,Jalisco,Tepatitlán de Morelos,Tepatitlán de Morelos,ELTORTUGUERO,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140219,06/11/2014,Jalisco,La Huerta,Chamela,ENTRE CHAMELA Y CAREYES,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140220,06/11/2014,Jalisco,Ocotlán,Ocotlán,LAGO DE CHAPALA EN BOCA DEL RIO ENTRE OCOTLAN Y JA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140221,06/11/2014,Jalisco,Teocuitatlán de Corona,Santa Rosa,PRESA DE SANTA ROSA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140222,06/11/2014,Jalisco,Valle de Guadalupe,El Saucito,PRESA EL SALTO,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140223,06/11/2014,Jalisco,Valle de Guadalupe,El Águila,RANCHO EL AGUILA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140224,06/11/2014,Jalisco,Tepatitlán de Morelos,Tepatitlán de Morelos,EL TORTUGUERO,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140225,06/11/2014,Jalisco,Tepatitlán de Morelos,Tepatitlán de Morelos,PRESA ELTEHUITE,Captura ilegal,Arte de pesca,Atendido,OTRAS
+14140226,06/11/2014,Jalisco,La Huerta,Emiliano Zapata,BOCA DEL RIO DE CUIXMALA,Captura ilegal,Arte de pesca,Atendido,OTRAS
+3140227,07/11/2014,Baja California Sur,Comondú,Ciudad Constitución,BAHIA DE SAN CARLOS,Captura ilegal,Embarcación Mayor,Atendido,OTRAS
+24140228,07/11/2014,San Luis Potosí,Ciudad Valles,Ciudad Valles,PRESA LA LAJILLA - LAGUNA DEL MANTE,Captura ilegal,Otros,Atendido,LOBINA
+27140229,10/11/2014,Tabasco,Paraíso,El Bellote (Miguel de la Madrid),S,Otros,Otros,Atendido,OTRAS
+25140230,13/11/2014,Sinaloa,Escuinapa,Teacapán,EL QUESO,Comercialización ilegal,Vehiculo,Atendido,DORADO
+3140231,18/11/2014,Baja California Sur,Comondú,Puerto San Carlos,BAHIA ALMEJAS,Captura ilegal,Embarcación Mayor,Atendido,CAMARON
+2140232,18/11/2014,Baja California,Ensenada,El Rosario,EJIDO VALLE TRANQUILO,Captura ilegal,Embarcación Menor,Atendido,ERIZO
+25140233,19/11/2014,Sinaloa,Escuinapa,Las Cabras,LAS CABRAS,Otros,Embarcación Mayor,Atendido,SARDINA
+28140234,19/11/2014,Tamaulipas,Aldama,Barra del Tordo,BARRA DEL TORDO,Otros,Método de pesca,Atendido,-1
+28140235,19/11/2014,Tamaulipas,Aldama,Barra del Tordo,BARRA DEL TORDO,Otros,Método de pesca,Atendido,-1
+28140236,19/11/2014,Tamaulipas,Aldama,Barra del Tordo,BARRA DEL TORDO,Otros,Método de pesca,Atendido,-1
+14140237,21/11/2014,Jalisco,Cocula,Cocula,BORDO SAN JOAQUIN,Captura ilegal,Arte de pesca,Atendido,OTRAS
+6140238,21/11/2014,Colima,Manzanillo,Manzanillo,LITORALES DE COLIMA,Captura ilegal,Embarcación Menor,Atendido,DORADO
+12140239,22/11/2014,Guerrero,Acapulco de Juárez,Acapulco de Juárez,ACAPULCO,Otros,Otros,Atendido,-1
+18140240,24/11/2014,Nayarit,Bahía de Banderas,Las Jarretaderas,DESEMBOCADURA DEL RIO AMECA,Captura ilegal,Método de pesca,Atendido,-1
+18140241,24/11/2014,Nayarit,San Blas,Boca del Asadero,LAGUNA LA TRONCONUDA Y POZO DEL AHOGADO,Captura ilegal,Método de pesca,Atendido,CAMARON
+14140242,26/11/2014,Jalisco,Chapala,Santa Cruz de la Soledad,EL ACUEDUCTO,Otros,Arte de pesca,Atendido,OTRAS
+14140243,28/11/2014,Jalisco,Zapopan,Zapopan,HACIENDA LA ESCOBA (LA MAGDALENA),Comercialización ilegal,Arte de pesca,Atendido,OTRAS
+14140244,28/11/2014,Jalisco,Zapopan,Zapopan,HACIENDA LA ESCOBA (LA MAGDALENA),Comercialización ilegal,Arte de pesca,Atendido,OTRAS
+31140245,29/11/2014,Yucatán,Progreso,Progreso,"PISTA DE CANOTAJE, PARADERO TURISTICO ""CORCHITO""",Captura ilegal,Arte de pesca,Atendido,OTRAS
+26140246,30/11/2014,Sonora,Cajeme,Oviáchic,EL VERTEDOR DE LA PRESA,Captura ilegal,Método de pesca,Atendido,BAGRE
+30140247,03/12/2014,Veracruz,Tamiahua,Tamiahua,LAGUNA TAMIAHUA,Captura ilegal,Embarcación Menor,Atendido,LEBRANCHA
+26140248,03/12/2014,Sonora,Cajeme,Ciudad Obregón,PRESA ALVARO OBREGON,Otros,Método de pesca,Atendido,BAGRE
+14140249,03/12/2014,Jalisco,Valle de Guadalupe,Valle de Guadalupe,"PRESA EL SALTO,",Captura ilegal,Otros,Atendido,OTRAS
+3140250,04/12/2014,Baja California Sur,Comondú,Puerto San Carlos,FRENTE A LA HERRADURA,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+26140251,04/12/2014,Sonora,Cajeme,Buenavista,PRESA ALVARO OBREGON,Otros,Método de pesca,Atendido,BAGRE
+18140252,05/12/2014,Nayarit,Bahía de Banderas,Las Jarretaderas,DESEMBOCADURA DEL RIO AMECA,Otros,Método de pesca,Atendido,-1
+3140253,05/12/2014,Baja California Sur,Comondú,Puerto San Carlos,VILLA HIDALGO,Posesión ilegal,Otros,Atendido,ALMEJA
+30140254,07/12/2014,Veracruz,Tamiahua,Tamiahua,REFORMA,Captura ilegal,Arte de pesca,Atendido,CAMARON
+6140255,08/12/2014,Colima,Manzanillo,Manzanillo,ESCOLLERA DE TEPALCATES,Captura ilegal,Método de pesca,Atendido,OTRAS
+3140256,10/12/2014,Baja California Sur,Comondú,Puerto San Carlos,BAHIA MAGDALENA,Captura ilegal,Embarcación Mayor,Atendido,SARDINA
+25140257,16/12/2014,Sinaloa,San Ignacio,Dimas (Estación Dimas),ESTERO MEDINA,Captura ilegal,Método de pesca,Atendido,CAMARON
+25140258,16/12/2014,Sinaloa,Mazatlán,Mármol de Salcido (Mármol),BAJOS DE MARMOL Y DE PIAXTLA,Captura ilegal,Otros,Atendido,OSTION
+7140259,16/12/2014,Chiapas,Mapastepec,El Castaño,BOCABARRA SAN NICOLAS,Captura ilegal,Arte de pesca,Atendido,CAMARON
+7140260,16/12/2014,Chiapas,Acapetahua,Barra Zacapulco,BOCABARRA SAN JUAN,Captura ilegal,Arte de pesca,Atendido,CAMARON
+14140261,18/12/2014,Jalisco,Chapala,Chapala,LA ESTACIÓN MANGLAR,Captura ilegal,Arte de pesca,Atendido,CHARAL
+18140262,28/12/2014,Nayarit,Tecuala,San Cayetano,OTATITOS,Captura ilegal,Embarcación Menor,Atendido,LISA
+18140263,31/12/2014,Nayarit,Tecuala,La Puntilla,EL ROBLITO,Captura ilegal,Embarcación Mayor,Atendido,LISA
