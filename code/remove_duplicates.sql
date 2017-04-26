@@ -1,8 +1,8 @@
 DELETE FROM beneficiarios
-WHERE id IN (SELECT id
-              FROM (SELECT id,
-                             ROW_NUMBER() OVER (partition BY "Año", "Beneficiario", "RNPA" ORDER BY id) AS rnum
-                     FROM tablename) t
+WHERE ID IN (SELECT ID
+              FROM (SELECT ID,
+                             ROW_NUMBER() OVER (partition BY "Beneficiario", "RNPA" ORDER BY ID) AS rnum
+                     FROM beneficiarios) t
               WHERE t.rnum > 1);
 
 DELETE

@@ -15,10 +15,9 @@ archivos = ["2008_2011_reconversion.csv",
 "2012_motores_marinos_ecologicos.csv",
 "2014_2015_solicitudes_gasolina.csv",
 "2014_2015_solicitudes_modernizacion_embaraciones_mayores.csv",
-"2014_2015_solicitudes_embarcaciones_menores.csv"]
-
-# "2014_beneficiarios_modernizacion_embarcaciones_mayores.csv",
-# 2015_beneficiarios_modernizacion_embarcaciones_mayores.csv
+"2014_2015_solicitudes_embarcaciones_menores.csv",
+"2014_beneficiarios_modernizacion_embarcaciones_mayores.csv",
+"2015_beneficiarios_modernizacion_embarcaciones_mayores.csv"]
 # 2014_2015_solicitudes_diesel.csv
 
 def crear_beneficiario(archivos):
@@ -171,6 +170,30 @@ def extraer_lugares(archivo):
               new_row['Municipio'] = row['Municipio'].lower()
               new_row['Localidad'] = row['Localidad'].lower()
               sw.writerow(new_row)
+
+def add_foreign_key(archivo):
+    nuevo_archivo = 'clean_' + archivo
+    with open (archivo, 'r') as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        fieldnames.append('IDBeneficiario')
+        with open(nuevo_archivo, 'wb') as csvfile:
+          sw = csv.DictWriter(csvfile, fieldnames=fieldnames)
+          sw.writeheader()
+          for row in reader:
+              row['IDBeneficiario'] = get_beneficiario_id(row['Beneficiario'])
+              sw.writerow(row)
+
+def get_beneficiario_id(name):
+    beneficiarios_archivo = 'beneficiarios.csv'
+    with open (beneficiarios_archivo, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row['Beneficiario'].lower() == name.lower():
+                return row['ID']
+        print('beneficiario {0} no encontrado'.format(name))
+        return ''
+
 def main():
 
   # Crea un archivo clean_XXX uniendo columnas de nombres en una sola 'beneficiario'
@@ -193,7 +216,7 @@ def main():
   # limpiar_beneficiario(archivo)
 
   for archivo in archivos:
-    extraer_lugares(archivo)
+      add_foreign_key(archivo)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,106 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package schemaspygui;
+
+import java.io.BufferedReader;
+import java.io.*;
+import java.util.*;
+import java.io.IOException; 
+import java.io.InputStreamReader; 
+/**
+ *
+ * @author joachim uhl; mailto:admin@joachim-uhl.de; http://www.joachim-uhl.de/projekte/schemaspygui/
+ */
+public class Operations implements Runnable {
+    
+        private Gui GuiSchema;
+        private String command;
+        private String displ_command;
+        
+        public Operations(Gui gui, String run_command, String display_command) {
+            GuiSchema = gui;
+            command = run_command;
+            displ_command = display_command;
+        }
+    
+    	public void run( ) {
+         
+        try { 
+             GuiSchema.setText("This is the command (password not displayed!) SchemaSpyGUI has generated:" +"\n");
+             GuiSchema.setText(displ_command +"\n");
+             GuiSchema.setText("\n");
+             Process d = Runtime.getRuntime().exec(command); 
+
+             ErrStreamOut errOut = new ErrStreamOut(d, GuiSchema);
+             InputStreamOut inOut = new InputStreamOut(d, GuiSchema);
+             
+             Thread terrOut = new Thread(errOut);
+             Thread tinOut = new Thread(inOut);
+             
+             terrOut.start();
+             tinOut.start();
+
+            } 
+        
+            
+        
+            catch ( Exception ioe ) { 
+              System.err.println( "IO error: " + ioe );
+              ioe.printStackTrace();
+            } 
+         }
+
+}
+
+//Catches every error output from SchemaSpy
+class ErrStreamOut implements Runnable {
+    
+    private Process p;
+    private Gui GuiSchema;
+    
+    public ErrStreamOut(Process d, Gui gui) {
+        p = d;
+        GuiSchema = gui;
+    }
+    
+    public void run() {
+        try {
+              BufferedReader in = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+              String s;  
+              while ((s = in.readLine()) != null) 
+                {GuiSchema.setText(s +"\n");}
+              int exitVal = p.waitFor();
+              GuiSchema.setText("" +exitVal);
+        } catch (Exception e) {
+           e.printStackTrace(); 
+        }
+    }
+}
+
+//Catches every "normal" output from SchemaSpy
+class InputStreamOut implements Runnable {
+    
+    private Process p;
+    private Gui GuiSchema;
+    
+    public InputStreamOut(Process d, Gui gui) {
+        p = d;
+        GuiSchema = gui;
+    }
+    
+    public void run() {
+        try {
+              BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+              String s;  
+              while ((s = in.readLine()) != null) 
+                {GuiSchema.setText(s +"\n");}
+              int exitVal = p.waitFor();
+              GuiSchema.setText("" +exitVal);
+        } catch (Exception e) {
+           e.printStackTrace(); 
+        }
+    }
+}

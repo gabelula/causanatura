@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="causa_natura" schema="public" type="PostgreSQL - 9.5.1">
+   <tables>
+      <table name="beneficiarios" numRows="2776" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="true" remarks="" size="165" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="true" remarks="" size="64" type="varchar"/>
+      </table>
+      <table name="beneficiarios_diesel" numRows="5320" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="119" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="CURP" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="RFC" nullable="true" remarks="" size="13" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="RNPA" nullable="true" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="5" name="Estado" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Municipio" nullable="false" remarks="" size="22" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Localidad" nullable="false" remarks="" size="36" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="Monto" nullable="false" remarks="" size="13" type="varchar"/>
+      </table>
+      <table name="beneficiarios_electricos" numRows="17" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="37" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="false" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="3" name="Estado" nullable="false" remarks="" size="6" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Municipio" nullable="false" remarks="" size="10" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Localidad" nullable="false" remarks="" size="14" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Monto_federal" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="7" name="Monto_estatal" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="beneficiarios_embarcaciones_mayores_2014" numRows="712" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="false" remarks="" size="15" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Puerto" nullable="false" remarks="" size="14" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Beneficiario" nullable="false" remarks="" size="108" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="RNPA" nullable="true" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="5" name="Embarcación" nullable="false" remarks="" size="32" type="varchar"/>
+         <column autoUpdated="false" digits="17" id="6" name="Monto_aprobado" nullable="false" remarks="" size="17" type="float8"/>
+         <column autoUpdated="false" digits="0" id="7" name="Pagado" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="17" id="8" name="2014_nov_dic_pasivos" nullable="true" remarks="" size="17" type="float8"/>
+         <column autoUpdated="false" digits="0" id="9" name="2014_enero_marzo_pasivos" nullable="true" remarks="" size="13" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="10" name="desistido" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="11" name="acta_administrativa" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="12" name="reintegro" nullable="true" remarks="" size="9" type="varchar"/>
+         <column autoUpdated="false" digits="17" id="13" name="pdte_comprobar_pago" nullable="true" remarks="" size="17" type="float8"/>
+         <column autoUpdated="false" digits="17" id="14" name="_unnamed" nullable="true" remarks="" size="17" type="float8"/>
+      </table>
+      <table name="beneficiarios_embarcaciones_mayores_2015" numRows="552" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="true" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Puerto" nullable="true" remarks="" size="25" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Beneficiario" nullable="true" remarks="" size="111" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="RNPA" nullable="true" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Embarcación" nullable="true" remarks="" size="28" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Monto_total" nullable="true" remarks="" size="15" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Aportacion_productor" nullable="true" remarks="" size="15" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="Aportacion_conapesca" nullable="true" remarks="" size="15" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="9" name="pagado_por_concepto" nullable="true" remarks="" size="30" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="10" name="pagado_reembolso" nullable="true" remarks="" size="14" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="11" name="pasivos" nullable="true" remarks="" size="17" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="12" name="desistido" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="13" name="saldo" nullable="true" remarks="" size="14" type="varchar"/>
+      </table>
+      <table name="beneficiarios_embarcaciones_menores" numRows="5094" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="38" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="false" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="3" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Municipio" nullable="false" remarks="" size="49" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Localidad" nullable="true" remarks="" size="44" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="INEGI" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="7" name="Motor_Federal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="8" name="Motor_Estatal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="9" name="Embarcacion_Federal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="10" name="Embarcacion_Estatal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="11" name="Hielera_Federal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="12" name="Hielera_Estatal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="13" name="Sistema_Federal" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="14" name="Sistema_Estatal" nullable="true" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="beneficiarios_gasolina" numRows="69231" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="108" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="CURP" nullable="true" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="RFC" nullable="true" remarks="" size="32" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="RNPA" nullable="false" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="5" name="Estado" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Municipio" nullable="false" remarks="" size="38" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Localidad" nullable="false" remarks="" size="52" type="varchar"/>
+         <column autoUpdated="false" digits="17" id="8" name="Monto" nullable="true" remarks="" size="17" type="float8"/>
+         <column autoUpdated="false" digits="0" id="9" name="_unnamed" nullable="true" remarks="" size="13" type="varchar"/>
+      </table>
+      <table name="beneficiarios_infrastructura" numRows="4140" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="true" remarks="" size="165" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="true" remarks="" size="61" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Especie" nullable="true" remarks="" size="70" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Municipio" nullable="true" remarks="" size="36" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Localidad" nullable="true" remarks="" size="56" type="varchar"/>
+         <column autoUpdated="false" digits="17" id="7" name="Monto_federal" nullable="true" remarks="" size="17" type="float8"/>
+      </table>
+      <table name="beneficiarios_integral" numRows="38" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="76" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="false" remarks="" size="64" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Nombre_proyecto" nullable="false" remarks="" size="156" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Tipo_apoyo" nullable="false" remarks="" size="32" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Especie" nullable="false" remarks="" size="73" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Municipio" nullable="false" remarks="" size="17" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="Localidad" nullable="false" remarks="" size="30" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="9" name="Monto_federal" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="beneficiarios_motores_componentes" numRows="4864" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Componente" nullable="false" remarks="" size="13" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="2" name="Beneficiario" nullable="false" remarks="" size="43" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="RNPA" nullable="false" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="4" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Municipio" nullable="false" remarks="" size="40" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Localidad" nullable="true" remarks="" size="47" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Monto_federal" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="Monto_estatal" nullable="true" remarks="" size="4" type="varchar"/>
+      </table>
+      <table name="beneficiarios_motores_ecologicos" numRows="3553" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año,Beneficiario,RNPA,Estado,Municipio,Localidad,Monto_federal" nullable="false" remarks="" size="18" type="varchar"/>
+      </table>
+      <table name="beneficiarios_reconversion" numRows="101" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="62" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="true" remarks="" size="10" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Nombre_proyecto" nullable="false" remarks="" size="155" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Tipo_proyecto" nullable="false" remarks="" size="38" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Especie" nullable="false" remarks="" size="40" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Estado" nullable="false" remarks="" size="12" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="Municipio" nullable="false" remarks="" size="25" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="Localidad" nullable="false" remarks="" size="47" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="9" name="Monto" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="estadocodigosinegi" numRows="1648" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="SONORA" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="26" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="localidadcodigosinegi" numRows="1648" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="PUERTO PEÑASCO" nullable="false" remarks="" size="34" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="1" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="lugares" numRows="247" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Estado" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="Municipio" nullable="true" remarks="" size="49" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Localidad" nullable="true" remarks="" size="56" type="varchar"/>
+      </table>
+      <table name="municipiocodigosinegi" numRows="1648" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="ACAPONETA" nullable="false" remarks="" size="21" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="1" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="programas_sustitucion_motores" numRows="5" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name=" Programa " nullable="false" remarks="" size="67" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Componente" nullable="false" remarks="" size="80" type="varchar"/>
+      </table>
+      <table name="solicitudes_diesel" numRows="29" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Solicitudes_Recibidas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="3" name="Activos_con_Consumos" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="solicitudes_embarcaciones_mayores" numRows="37" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Municipio" nullable="false" remarks="" size="14" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Localidad" nullable="false" remarks="" size="14" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Numero_solicitudes_ingresadas" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="5" name="Numero_apoyos_otorgados" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="17" id="6" name="Monto" nullable="true" remarks="" size="17" type="float8"/>
+      </table>
+      <table name="solicitudes_embarcaciones_menores" numRows="2569" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="false" remarks="" size="19" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Municipio" nullable="false" remarks="" size="49" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Localidad" nullable="false" remarks="" size="44" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="INEGI" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="5" name="Motor_Registradas" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="6" name="Motor_Apoyadas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="7" name="Embarcacion_Registradas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="8" name="Embarcacion_Apoyadas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="9" name="Hielera_Registradas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="10" name="Hielera_Apoyadas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="11" name="Sistemas_Registradas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="12" name="Sistemas_Apoyadas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="13" name="_unnamed" nullable="true" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="solicitudes_gasolina" numRows="1684" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Estado" nullable="false" remarks="" size="31" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="Municipio" nullable="false" remarks="" size="36" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="Localidad" nullable="false" remarks="" size="52" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Solicitudes_Recibidas" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="5" name="Solicitudes_Atendidas" nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+      <table name="solicitudes_motores_marinos_ecologicos" numRows="1290" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="Año" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="1" name="Beneficiario" nullable="false" remarks="" size="72" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="RNPA" nullable="false" remarks="" size="19" type="int8"/>
+         <column autoUpdated="false" digits="0" id="3" name="Estado" nullable="false" remarks="" size="4" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="Municipio" nullable="false" remarks="" size="22" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="Localidad" nullable="false" remarks="" size="43" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="Aprobacion_Conapesca" nullable="false" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="7" name="Aprobacion_Gob_Edo." nullable="false" remarks="" size="10" type="int4"/>
+      </table>
+   </tables>
+</database>

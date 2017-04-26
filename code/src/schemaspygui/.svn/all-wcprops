@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui
+END
+ReleaseText.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/ReleaseText.properties
+END
+AboutBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/AboutBox.java
+END
+Operations.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/Operations.java
+END
+Gui.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/Gui.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/Main.java
+END
+AboutBox.form
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/AboutBox.form
+END
+Gui.form
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/Gui.form
+END
+LaunchSchemaOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SchemaSpyGUI/!svn/ver/2/trunk/src/schemaspygui/LaunchSchemaOutput.java
+END
