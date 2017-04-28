@@ -13,7 +13,6 @@ def extract_from_csv(archivo):
         reader = csv.DictReader(f)
         for row in reader:
             datos.append(row)
-            # {k: unicode(v, 'utf-8') for k, v in row.items()})
     return datos
 
 def clean_RNPA(rnpa):
@@ -47,10 +46,8 @@ def clean_beneficiarios(beneficiarios):
 def agregar_beneficario(nombre, rnpa):
     conn = psycopg2.connect("dbname=causa user=Gabriela")
     cur = conn.cursor()
-    query = """
-        INSERT INTO {0} (nombre, rnpa) VALUES ({1},{2})
-        """
-    cur.execute(query, ('beneficiarios', nombre.lower(), rnpa))
+    query = "INSERT INTO {0} (nombre, rnpa) VALUES (\"{1}\",\"{2}\")".format('beneficiarios', nombre.lower(), rnpa)
+    cur.execute(query)
     b =  cur.fetchone()
     print(b)
     return b['id']
@@ -152,6 +149,8 @@ def import_data(data, table_name, create_query):
         try:
             cur.execute(query)
             conn.commit()
+        except KeyError:
+            conn.rollback()
         except Exception as inst:
             print('Failed when running {}.'.format(query))
             print(inst)
