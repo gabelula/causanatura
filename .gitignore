@@ -2,6 +2,7 @@ templates
 meetings
 datos/*.pdf
 datos/*.xls
+datos/.DS_Store
 */.DS_Store
 .DS_Store
 .dropbox
