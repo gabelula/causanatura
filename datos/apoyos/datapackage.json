@@ -1,0 +1,233 @@
+{
+  "name": "apoyos",
+  "title": "Apoyos y Subsidios",
+  "description": "",
+  "licenses": [
+    {
+        "url": "https://datos.gob.mx/libreusomx",
+        "name": "Libre Uso MX",
+        "version": "0.1"
+    }
+  ],
+  "sources": [
+    {
+        "name": "SAGAR[A]",
+        "web": ""
+    }
+  ],
+  "resources": [
+  {
+    "data": [
+      "2014_2015_solicitudes_diesel.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": [
+          {
+            "id": "año",
+            "name": "año",
+            "label": "Año",
+            "type": "date",
+            "format": "YYYY",
+            "description": "Año que el beneficiario tuvo el subsidio de gasolina ribereña."
+          },
+          {
+            "id": "estado",
+            "name": "estado",
+            "label": "Estado",
+            "type": "string",
+            "description": "Estado"
+          },
+          {
+            "id": "recibiddas",
+            "name": "recibidas",
+            "label": "Solicitudes recibidas",
+            "type": "int",
+            "description": "Solicitudes recibidas."
+          },
+          {
+            "id": "apoyadas",
+            "name": "apoyadas",
+            "label": "Activos_con_Consumos",
+            "type": "int",
+            "description": "Embarcaciones con apoyo."
+          }
+        ]
+    }
+  },
+  {
+    "data": [
+      "2014_2015_solicitudes_gasolina.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": [
+          {
+            "id": "año",
+            "name": "año",
+            "label": "Año",
+            "type": "date",
+            "format": "YYYY",
+            "description": "Año que el beneficiario tuvo el subsidio de gasolina ribereña."
+          },
+          {
+            "id": "estado",
+            "name": "estado",
+            "label": "Estado",
+            "type": "string",
+            "description": "Estado"
+          },
+          {
+            "id": "municipio",
+            "name": "municipio",
+            "label": "Municipio",
+            "type": "string",
+            "description": "Municipio"
+          },
+          {
+            "id": "localidad",
+            "name": "localidad",
+            "label": "Localidad",
+            "type": "string",
+            "description": "Localidad"
+          },
+          {
+            "id": "solicitudes_recibidas",
+            "name": "solicitudes_recibidas",
+            "label": "Solicitudes recibidas",
+            "type": "int",
+            "description": "Solicitudes recibidas"
+          },
+          {
+            "id": "solicitudes_atendidas",
+            "name": "solicitudes_atendidas",
+            "label": "Solicitudes Atendidas",
+            "type": "int",
+            "description": "Solicitudes atendidas"
+          }
+        ]
+    }
+  },
+  {
+    "data": [
+      "2014_beneficiarios_modernizacion_embarcaciones_mayores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "2015_beneficiarios_modernizacion_embarcaciones_mayores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "beneficiarios_embarcaciones_menores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "diesel.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "electricos.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "gasolina.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "integral.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "motores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "pesca.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "reconversion.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "solicitudes_embarcaciones_mayores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  },
+  {
+    "data": [
+      "solicitudes_embarcaciones_menores.csv"
+    ],
+    "format": "CSV",
+    "mediatype": "text/csv",
+    "schema": {
+        "fields": []
+    }
+  }]
+}
