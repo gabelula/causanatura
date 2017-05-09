@@ -1,0 +1,21 @@
+apoyos:
+  title: Apoyo y Subsidios a la Pesca en Mexico
+  description: Beneficiarios y Subsidios.
+  pipeline:
+    -
+      run: add_metadata
+      parameters:
+        name: 'apoyos'
+        title: 'Apoyos y Subsidios'
+        homepage: 'http://causanatura.org/'
+    -
+      run: set_types
+      parameters:
+         resources: global-data
+         types:
+           "[12][0-9]{3}":
+              type: number
+    -
+      run: dump.to_zip
+      parameters:
+          out-file: co2-emissions-wb.zip

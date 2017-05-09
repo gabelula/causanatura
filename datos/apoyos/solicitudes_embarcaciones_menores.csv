@@ -71,10 +71,6 @@ Motor,2014,Baja California,Ensenada,Localidad sin Nombre,1,0
 Embarcación,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
 Hielera,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
 Sistema,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
-Motor,2014,Baja California,Ensenada,Localidad sin Nombre,1,0
-Embarcación,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
-Hielera,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
-Sistema,2014,Baja California,Ensenada,Localidad sin Nombre,0,0
 Motor,2014,Baja California,Ensenada,Molino Viejo,0,0
 Embarcación,2014,Baja California,Ensenada,Molino Viejo,1,1
 Hielera,2014,Baja California,Ensenada,Molino Viejo,0,0
@@ -148,9 +144,6 @@ Embarcación,2014,Baja California,Playas de Rosarito,El Morro,0,0
 Hielera,2014,Baja California,Playas de Rosarito,El Morro,0,0
 Sistema,2014,Baja California,Playas de Rosarito,El Morro,0,0
 Motor,2014,Baja California,Playas de Rosarito,El Morro,2,0
-Embarcación,2014,Baja California,Playas de Rosarito,El Morro,0,0
-Hielera,2014,Baja California,Playas de Rosarito,El Morro,0,0
-Sistema,2014,Baja California,Playas de Rosarito,El Morro,0,0
 Motor,2014,Baja California,Playas de Rosarito,Playas la Misión,1,0
 Embarcación,2014,Baja California,Playas de Rosarito,Playas la Misión,0,0
 Hielera,2014,Baja California,Playas de Rosarito,Playas la Misión,0,0
@@ -437,16 +430,8 @@ Hielera,2014,Baja California Sur,Mulegé,El Dátil,0,0
 Sistema,2014,Baja California Sur,Mulegé,El Dátil,0,0
 Motor,2014,Baja California Sur,Mulegé,El Dátil,0,0
 Embarcación,2014,Baja California Sur,Mulegé,El Dátil,1,0
-Hielera,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Sistema,2014,Baja California Sur,Mulegé,El Dátil,0,0
 Motor,2014,Baja California Sur,Mulegé,El Dátil,1,0
 Embarcación,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Hielera,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Sistema,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Motor,2014,Baja California Sur,Mulegé,El Dátil,1,0
-Embarcación,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Hielera,2014,Baja California Sur,Mulegé,El Dátil,0,0
-Sistema,2014,Baja California Sur,Mulegé,El Dátil,0,0
 Motor,2014,Baja California Sur,Mulegé,Estero de la Bocana,0,0
 Embarcación,2014,Baja California Sur,Mulegé,Estero de la Bocana,3,0
 Hielera,2014,Baja California Sur,Mulegé,Estero de la Bocana,0,0
@@ -561,8 +546,6 @@ Hielera,2014,Campeche,Carmen,Santa Rosalía,0,0
 Sistema,2014,Campeche,Carmen,Santa Rosalía,0,0
 Motor,2014,Campeche,Carmen,Santa Rosalía,1,0
 Embarcación,2014,Campeche,Carmen,Santa Rosalía,0,0
-Hielera,2014,Campeche,Carmen,Santa Rosalía,0,0
-Sistema,2014,Campeche,Carmen,Santa Rosalía,0,0
 Motor,2014,Campeche,Champotón,Champotón,39,5
 Embarcación,2014,Campeche,Champotón,Champotón,28,0
 Hielera,2014,Campeche,Champotón,Champotón,4,0
@@ -712,9 +695,6 @@ Embarcación,2014,Chiapas,Pijijiapan,Las Brisas,0,0
 Hielera,2014,Chiapas,Pijijiapan,Las Brisas,0,0
 Sistema,2014,Chiapas,Pijijiapan,Las Brisas,0,0
 Motor,2014,Chiapas,Pijijiapan,Las Brisas,1,0
-Embarcación,2014,Chiapas,Pijijiapan,Las Brisas,0,0
-Hielera,2014,Chiapas,Pijijiapan,Las Brisas,0,0
-Sistema,2014,Chiapas,Pijijiapan,Las Brisas,0,0
 Motor,2014,Chiapas,Pijijiapan,Mancomún Comunidad Carreta,1,0
 Embarcación,2014,Chiapas,Pijijiapan,Mancomún Comunidad Carreta,0,0
 Hielera,2014,Chiapas,Pijijiapan,Mancomún Comunidad Carreta,0,0
@@ -788,13 +768,6 @@ Embarcación,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
 Hielera,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
 Sistema,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
 Motor,2014,Chiapas,Villa Corzo,Loma Bonita,1,1
-Embarcación,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
-Hielera,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
-Sistema,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
-Motor,2014,Chiapas,Villa Corzo,Loma Bonita,1,1
-Embarcación,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
-Hielera,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
-Sistema,2014,Chiapas,Villa Corzo,Loma Bonita,0,0
 Motor,2014,Chiapas,Villa Corzo,Manuel Ávila Camacho,5,2
 Embarcación,2014,Chiapas,Villa Corzo,Manuel Ávila Camacho,0,0
 Hielera,2014,Chiapas,Villa Corzo,Manuel Ávila Camacho,0,0

@@ -52,5 +52,9 @@ for i in range(len(archivos)):
     resource.descriptor['mediatype'] = 'text/csv'
     resource.descriptor['schema'] = { 'fields': fields }
 
+for error in dp.iter_errors():
+    # Handle error
+    print error
+
 with open('datapackage.json', 'w') as f:
-  f.write(json.dumps(dp.to_json(), sort_keys=True, indent=4))
+  f.write(dp.to_json())
