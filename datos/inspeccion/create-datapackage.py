@@ -1,7 +1,7 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
-import datapackage, csv, os, json
+import datapackage, csv, os
 
 dp = datapackage.DataPackage()
 dp.descriptor['name'] = 'apoyos'
@@ -53,4 +53,4 @@ for i in range(len(archivos)):
     resource.descriptor['schema'] = { 'fields': fields }
 
 with open('datapackage.json', 'w') as f:
-  f.write(json.dumps(dp.to_json(), sort_keys=True, indent=4))
+  f.write(dp.to_json())
