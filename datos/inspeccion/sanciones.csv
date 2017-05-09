@@ -1,4 +1,4 @@
-Año,Nombre,Estado,MUNICIPIO,LOCALIDAD,MOTIVO,MONTO_MULTA
+Año,Titular,Estado,MUNICIPIO,LOCALIDAD,MOTIVO,Monto
 2014,JESUS RAMON CONTRERAS SANCHEZ,Sinaloa,Escuinapa,Isla del Bosque,"Articulo 132, fraccion XXVII",$64.76
 2014,FRANCISCO SESMA ARMENTA,Baja California,Ensenada,Ensenada,"Articulo 132, fraccion XVII","$6,796.29"
 2014,ANDRES ALBERTO AUDEVES OBESO,Sinaloa,Mazatlan,Villa Union,"Articulo 132, fraccion XXVII",$64.76
@@ -15,7 +15,7 @@ Año,Nombre,Estado,MUNICIPIO,LOCALIDAD,MOTIVO,MONTO_MULTA
 2015,EDGAR CRUZ LOPEZ,Baja California,Mexicali,San Felipe,"Articulo 132, fraccion XVII.","$6,540.76"
 2015,SISTEMA DE ADMINISTRACION EMPRESARIAL FRIZAJAL SA DE CV Y/O OPERADORA DE PRODUCTOS DEL MAR SA DE CV,Jalisco,Zapopan,Zapopan,"Articulo 132, fraccion XXVII","$70,170.10"
 2015,ELVIS ABEL HUICAB GONZALEZ,Campeche,Lerma-Champoton,Lerma-Champoton,"Articulo 132, fraccion XVII","$6,796.29"
-2015,CARLOS MANUEL DZIB DZIB,Campeche,De Lerma,Lerma,"Articulo 132, fraccion XVII","6,796.29"
+2015,CARLOS MANUEL DZIB DZIB,Campeche,De Lerma,Lerma,"Articulo 132, fraccion XVII",6796.29
 2015,EUSEBIO LOPEZ NAVARRO,Baja California,Mexicali,San Felipe,"Articulo 132, fraccion XVIII","$7,080.10"
 2015,ARMANDO SALAS ALCANTAR,Baja California,Mexicali,San Felipe,Articulo 132. fraccion IX y XVIII,"$14,160.20"
 2015,JESUS ANTONIO GASTELUM QUEVEDO,Baja California Sur,Comondu,Comondu,"Articulo 132, fraccion I, XVII y XXVII.",$194.28

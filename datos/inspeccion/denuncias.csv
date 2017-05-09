@@ -1,4 +1,4 @@
-Año,Folio_denuncia,Fecha_captura,Estado,Municipio,Localidad,Lugar_Conocido,Tipo_denuncia,Instrumento_utilizado,Estatus,Especie
+Año,Folio,Fecha,Estado,Municipio,Localidad,Lugar,Tipo,Instrumento,Estatus,Especie
 2011,,,Baja California,Ensenada,La Bufadora,EJIDO ESTEBAN CANTU,,,Atendido,
 2011,,,Baja California,Mexicali,San Felipe,MUELLE,,,Atendido,
 2011,,,Baja California,Mexicali,San Felipe,MALECÓN Y MUELLES,,,Atendido,
