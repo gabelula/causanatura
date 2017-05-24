@@ -1,0 +1,5 @@
+CREATE TABLE numero_de_oficiales_federales_de_pesca (
+	Area_Adscripcion VARCHAR(19) NOT NULL, 
+	Ano DECIMAL NOT NULL, 
+	Numero_oficiales DECIMAL
+);

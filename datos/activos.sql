@@ -1,0 +1,9 @@
+CREATE TABLE activos (
+	RNPA DECIMAL NOT NULL, 
+	Embarcacion VARCHAR(105), 
+	Tipo VARCHAR(38) NOT NULL, 
+	Municipio VARCHAR(49) NOT NULL, 
+	Localidad VARCHAR(60), 
+	Estado VARCHAR(19) NOT NULL, 
+	Ano_Construido DECIMAL NOT NULL
+);

@@ -1,0 +1,5 @@
+CREATE TABLE titulares (
+	ID DECIMAL NOT NULL, 
+	Beneficiario VARCHAR(165) NOT NULL, 
+	RNPA VARCHAR(28)
+);
