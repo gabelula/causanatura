@@ -1,6 +1,0 @@
-CREATE TABLE pesca_ilegal (
-	Ano DECIMAL, 
-	Estado VARCHAR(19), 
-	Especie VARCHAR(24) NOT NULL, 
-	Cantidad VARCHAR(10) NOT NULL
-);

@@ -1,5 +1,0 @@
-CREATE TABLE total_actas_verificaciones_documentales (
-	Estado VARCHAR(19) NOT NULL, 
-	Ano DECIMAL NOT NULL, 
-	Actas DECIMAL NOT NULL
-);

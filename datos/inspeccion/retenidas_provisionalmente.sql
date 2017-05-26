@@ -1,6 +1,0 @@
-CREATE TABLE retenidas_provisionalmente (
-	Tipo VARCHAR(13) NOT NULL, 
-	Estado VARCHAR(19) NOT NULL, 
-	Ano DECIMAL NOT NULL, 
-	Incautadas DECIMAL
-);
