@@ -9,3 +9,4 @@ datos/.DS_Store
 .DS_Store
 datos/Otros/Codigos INEGI/ITER_NALDBF05.dbf
 .env
+.~lock*
