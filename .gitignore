@@ -11,3 +11,4 @@ datos/Otros/Codigos INEGI/ITER_NALDBF05.dbf
 .env
 *.sql
 datos/*.sql
+.~lock*
